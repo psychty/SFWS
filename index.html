@@ -1449,8 +1449,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 </script>
-<
-script
+<script
 src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
 integrity = "sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
 crossorigin = "anonymous" ></script>
@@ -1572,7 +1571,9 @@ crossorigin = "anonymous" ></script>
         $buttonGroup.on('click', 'button', function () {
             $buttonGroup.find('.is-checked').removeClass('is-checked');
             $(this).addClass('is-checked');
-            updateFilterCount();
+            setTimeout(function(){
+                updateFilterCount();
+            }, 300);
         });
     });
 
