@@ -53,10 +53,8 @@
         *
 
         /
-        /* Search works fine until you use a filter or sort. after this, search bar no longer works. is it to do with order? */
         /* Tooltips - I want to be able to hover over the grid-items and display text. */
         /* How to export it for others to use. Embed as html works fine whilst the data is compiled using R but if we get data imported from json file, I'd need to store that too.*/
-        /* The number of actions selected is given in p class = "filter-count". However it does not update at the same time as clicking, it updates at the beginning of the next click. */
         /* Figure out changing colour of the font based on bg colour - https://codepen.io/blazebarsamian/pen/OjdEMq  */
 
 
@@ -350,10 +348,10 @@
     (individual/community/or environment).</p>
 <p>To learn more about an action, hover over or click each box.</p>
 
-<!-- <div class="search_bar">
-<h2>Search</h2>
-<p><input type="text" id="quicksearch" placeholder="Search" /></p>
-</div> -->
+<div class="search_bar">
+    <h2>Search</h2>
+    <p><input type="text" id="quicksearch" placeholder="Search"/></p>
+</div>
 
 
 <div class="container">
@@ -1449,7 +1447,8 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 </script>
-<script
+<
+script
 src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
 integrity = "sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
 crossorigin = "anonymous" ></script>
@@ -1571,7 +1570,7 @@ crossorigin = "anonymous" ></script>
         $buttonGroup.on('click', 'button', function () {
             $buttonGroup.find('.is-checked').removeClass('is-checked');
             $(this).addClass('is-checked');
-            setTimeout(function(){
+            setTimeout(function () {
                 updateFilterCount();
             }, 300);
         });
@@ -1605,6 +1604,36 @@ crossorigin = "anonymous" ></script>
         },
         ".grid-item"
     );
+
+    /**
+     * Filtering grid by searchText
+     */
+
+    $('#quicksearch').on('keyup', function(){
+       filterByText( $(this).val() );
+    });
+
+    function filterByText(searchText) {
+
+        if (searchText.length > 0) {
+
+            $grid.isotope({
+                filter: function () {
+                    var text = '';
+                    text += $(this).find('.ap_title').text() + ' ';
+                    text += $(this).find('.ap_text').text() + ' ';
+                    text += $(this).find('.success').text() + ' ';
+                    return text.search( searchText ) !== -1;
+                }
+            })
+        }
+    }
+
+    /**
+     * tooltips on mouseover
+     */
+
+    
 
 
 </script>
