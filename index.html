@@ -231,14 +231,21 @@
         .button {
             display: block;
             padding: 0.5em 0.5em;
-            background-color: #EEE;
             border: none;
-            background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2));
             color: #222;
             font-family: sans-serif;
             font-size: .75em;
             cursor: pointer;
             text-align: left;
+            margin: 0 0 3px;
+        }
+
+        .button[data-filter=".working_partnership"]{
+            border-left: 8px solid #9B2948;
+        }
+
+        .button[data-filter=".gather_data"]{
+            border-left: 8px solid #CA7F88;
         }
 
         .button:hover {
@@ -1512,7 +1519,7 @@ crossorigin = "anonymous" ></script>
             var ap_text = searchText ? $this.find('.ap_text').text().match(searchText) : true;
             var success = searchText ? $this.find('.success').text().match(searchText) : true;
             var selectResult = filterValue ? $this.is(filterValue) : true;
-            return ap_title || ap_text || success && selectResult;
+            return ap_title || ap_text || success || selectResult;
         }
     });
 
@@ -1525,7 +1532,7 @@ crossorigin = "anonymous" ></script>
     var $filterCount = $('.filter-count');
 
     // store filter for each group
-    var filters = {};
+    var filters = [];
 
     $('.filter').on('click', '.button', function (event) {
         var $button = $(event.currentTarget);
@@ -1536,8 +1543,11 @@ crossorigin = "anonymous" ></script>
         filters[filterGroup] = $button.attr('data-filter');
         // combine filters
         filterValue = concatValues(filters);
-        $grid.isotope();
+        // set filter for Isotope
+        $grid.isotope({filter: filterValue});
     });
+
+
 
     // flatten object by concatting values
     function concatValues(obj) {
