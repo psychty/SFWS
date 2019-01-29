@@ -50,10 +50,6 @@
 
         /* To do -
 		/* Import data for the divs from a csv/json file rather than manually type it. there are 70 boxes! */
-        *
-
-        /
-        /* Tooltips - I want to be able to hover over the grid-items and display text. */
         /* How to export it for others to use. Embed as html works fine whilst the data is compiled using R but if we get data imported from json file, I'd need to store that too.*/
         /* Figure out changing colour of the font based on bg colour - https://codepen.io/blazebarsamian/pen/OjdEMq  */
 
@@ -334,6 +330,43 @@
             color: #151f6d;
         }
 
+        /**
+        Tooltip styling
+         */
+
+        .grid-item .tooltip{
+            display: none;
+        }
+
+        .grid-item:hover .tooltip{
+            display: block;
+            position: absolute;
+            top: -40px;
+            width: 120px;
+            left: 50%;
+            margin-left: -64px;
+            background: #111;
+            color: #fff;
+            font-size: 12px;
+            padding: 8px;
+            border-radius: 4px;
+            box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+        }
+
+        .grid-item:hover .tooltip:after{
+            content: '';
+            width: 8px;
+            height: 8px;
+            position: absolute;
+            background: #111;
+            left: 50%;
+            margin-left: -4px;
+            bottom: -4px;
+            transform: rotate(45deg);
+        }
+
+
+
     </style>
 </head>
 <body>
@@ -484,6 +517,9 @@
                     <p class="achieved"></p>
                     <p class="timeframe_label">Medium term </p>
                     <p class="levels_label">Individual </p>
+                    <div class="tooltip">
+                        <p>This is some tooltip text</p>
+                    </div>
                 </div>
                 <div class="grid-item working_partnership shortterm    individual   arun_wellbeing ">
                     <p class="ap_number">2</p>
@@ -497,6 +533,9 @@
                     <p class="achieved"></p>
                     <p class="timeframe_label">Short term </p>
                     <p class="levels_label">Individual </p>
+                    <div class="tooltip">
+                        <p>This is some tooltip text</p>
+                    </div>
                 </div>
                 <div class="grid-item working_partnership longterm  individual   fire_service ">
                     <p class="ap_number">3</p>
@@ -1629,11 +1668,6 @@ crossorigin = "anonymous" ></script>
         }
     }
 
-    /**
-     * tooltips on mouseover
-     */
-
-    
 
 
 </script>
