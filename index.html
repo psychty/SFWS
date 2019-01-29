@@ -51,7 +51,6 @@
         /* To do -
 		/* Import data for the divs from a csv/json file rather than manually type it. there are 70 boxes! */
         /* How to export it for others to use. Embed as html works fine whilst the data is compiled using R but if we get data imported from json file, I'd need to store that too.*/
-        /* Figure out changing colour of the font based on bg colour - https://codepen.io/blazebarsamian/pen/OjdEMq  */
 
 
         /* Could we make the grid div smaller (because once a user has chosen a specific partner/timeframe/level, the number will likely drop from 69 to five or six) and then have another div container showing more information about that action (see mock up).*/
@@ -159,6 +158,12 @@
             background: #9B2948;
         }
 
+            .working_partnership .timeframe_label,
+            .working_partnership .levels_label,
+            .working_partnership .partner_label{
+                color: rgba(255,255,255, 0.5);
+            }
+
         .gather_data {
             background: #CA7F88;
         }
@@ -170,6 +175,12 @@
         .deliver_cccc {
             background: #4E235A;
         }
+
+            .deliver_cccc .timeframe_label,
+            .deliver_cccc .levels_label,
+            .deliver_cccc .partner_label{
+                color: rgba(255,255,255, 0.5);
+            }
 
         .integrated_approach {
             background: #546F2A;
@@ -518,7 +529,7 @@
                     <p class="timeframe_label">Medium term </p>
                     <p class="levels_label">Individual </p>
                     <div class="tooltip">
-                        <p>This is some tooltip text</p>
+                        <p>This is some tooltip text. <a href="https://codepotato.co.uk">Hey Codepotato</a></p>
                     </div>
                 </div>
                 <div class="grid-item working_partnership shortterm    individual   arun_wellbeing ">
