@@ -25,17 +25,13 @@
 
         /* Left and right column */
         .column.side {
-            width: 18%;
+            width: 16%;
             padding-right: 5px;
-            height: 100%;
-            overflow: auto;
         }
 
         /* Main column */
         .column.main {
-            width: 82%;
-            height: 800px;
-            overflow: auto;
+            width: 84%;
         }
 
         /* Clear floats after the columns */
@@ -455,6 +451,8 @@
     (individual/community/or environment).</p>
 <p>To learn more about an action, hover over each box.</p>
 
+<p><button class="button button--reset">Reset filters</button></p>
+
 <!-- <div class="search_bar">
     <h2>Search</h2>
     <p><input type="text" id="quicksearch" placeholder="Search"/></p>
@@ -495,8 +493,7 @@
                         <button class="button" data-filter=".advocacy">Influence chance through advocacy</button>
                         <button class="button" data-filter=".yp_smokefree">Helping young people to be tobacco free
                         </button>
-                        <button class="button" data-filter=".smokefree_environments">Maintain and promote smoke freen
-                            environments
+                        <button class="button" data-filter=".smokefree_environments">Maintain and promote smoke free environments
                         </button>
                         <!-- <button class = "button" data-filter="numberGreaterThan50">number > 50</button> -->
                     </div>
@@ -2073,6 +2070,31 @@ crossorigin = "anonymous" ></script>
         $grid.isotope({filter: filterValue});
     });
 
+    updateFilterCount(); // Shows how many actions are selected
+
+    // Shows the user which filters are on
+    $('.button-group').each(function (i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on('click', 'button', function () {
+            $buttonGroup.find('.is-checked').removeClass('is-checked');
+            $(this).addClass('is-checked');
+            setTimeout(function () {
+                updateFilterCount();
+            }, 200);
+        });
+    });
+
+    var $anyButtons = $('.filter').find('button[data-filter-group="*"]');
+     var $buttons = $('.filter button');
+
+     $('.button--reset').on( 'click', function() {
+       // reset filters
+       filters = {};
+       $grid.isotope({ filter: '*' });
+       // reset buttons
+       $buttons.removeClass('is-checked');
+       $buttonGroup.find('.is-checked').addClass('is-checked');
+     });
 
 
     // flatten object by concatting values
@@ -2084,30 +2106,14 @@ crossorigin = "anonymous" ></script>
         return value;
     }
 
-    updateFilterCount();
-
-    // Shows the user which filters are on
-    $('.button-group').each(function (i, buttonGroup) {
-        var $buttonGroup = $(buttonGroup);
-        $buttonGroup.on('click', 'button', function () {
-            $buttonGroup.find('.is-checked').removeClass('is-checked');
-            $(this).addClass('is-checked');
-            setTimeout(function () {
-                updateFilterCount();
-            }, 300);
-        });
-    });
-
-
-
     /**
      * Filtering grid by searchText
      */
 
-    $('#quicksearch').on('keyup', function(){
-       searchText = $(this).val();
-        $grid.isotope();
-    });
+    // $('#quicksearch').on('keyup', function(){
+    //    searchText = $(this).val();
+    //     $grid.isotope();
+    // });
 
 
 
