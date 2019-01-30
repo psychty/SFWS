@@ -114,6 +114,7 @@
         .grid-item .ap_title {
             position: absolute;
             left: 8px;
+            padding-right: 8px;
             top: 5px;
             font-size: 0.75em;
             font-weight: bold;
@@ -126,7 +127,7 @@
             bottom: 5px;
             font-size: 0.75em;
             font-weight: bold;
-            color: white;
+            color: rgba(255,255,255, 1);
         }
 
         .grid-item .timeframe_label {
@@ -134,6 +135,7 @@
             left: 8px;
             bottom: 35px;
             font-size: 0.625em;
+            color: rgba(255,255,255, 0.85);
         }
 
         .grid-item .partner_label {
@@ -141,6 +143,7 @@
             left: 8px;
             bottom: 22.5px;
             font-size: 0.625em;
+            color: rgba(255,255,255, 0.85);
         }
 
         .grid-item .levels_label {
@@ -148,6 +151,7 @@
             left: 8px;
             bottom: 10px;
             font-size: 0.625em;
+            color: rgba(255,255,255, 0.85);
         }
 
 
@@ -155,15 +159,16 @@
         .working_partnership {
             background: #9B2948;
         }
-          .working_partnership .timeframe_label,
-          .working_partnership .levels_label,
-          .working_partnership .partner_label{
-                color: rgba(255,255,255, 0.5);
-            }
+
 
         .gather_data {
             background: #CA7F88;
         }
+        .gather_data .timeframe_label,
+        .gather_data .levels_label,
+        .gather_data .partner_label{
+              color: rgba(0,0,0, .75);
+          }
 
         .health_inequalities {
             background: #C1852A;
@@ -173,12 +178,6 @@
             background: #4E235A;
         }
 
-            .deliver_cccc .timeframe_label,
-            .deliver_cccc .levels_label,
-            .deliver_cccc .partner_label{
-                color: rgba(255,255,255, 0.5);
-            }
-
         .integrated_approach {
             background: #546F2A;
         }
@@ -186,10 +185,20 @@
         .build_sustain_capacity {
             background: #8DAFC4;
         }
+        .build_sustain_capacity .timeframe_label,
+        .build_sustain_capacity .levels_label,
+        .build_sustain_capacity .partner_label{
+              color: rgba(0,0,0, .75);
+          }
 
         .tackle_cheap_illicit_tob {
             background: #B5D384;
         }
+        .tackle_cheap_illicit_tob .timeframe_label,
+        .tackle_cheap_illicit_tob .levels_label,
+        .tackle_cheap_illicit_tob .partner_label{
+              color: rgba(0,0,0, .75);
+          }
 
         .advocacy {
             background: #E53049;
@@ -506,7 +515,7 @@
                         <button class="button" data-filter=".fire_service">Fire Service</button>
                         <!-- <button class="button" data-filter=".ccg">Clinical Commissioning Groups</button> -->
                         <button class="button" data-filter=".scft">Sussex Community NHS Foundation Trust</button>
-                        <button class="button" data-filter=".wsht">Western Sussex NHS Foundation Trust</button>
+                        <button class="button" data-filter=".wsht"><abbr title="Western Sussex Hospital NHS Foundation Trust">WSHT</abbr></button>
                         <button class="button" data-filter=".maternity">Maternity services</button>
                         <button class="button" data-filter=".h4f">Health4Families</button>
                         <button class="button" data-filter=".prisons">Prisons</button>
@@ -932,7 +941,7 @@
                         tobacco. Smokers are given brief advice and signposted to local stop smoking services</p>
                     <p class="success">Increase in number of elective patients being signposted to stop smoking
                         services</p>
-                    <p class="partner_label">Western Sussex Hospitals NHS Foundation Trust</p>
+                    <p class="partner_label"><abbr title="Western Sussex Hospital NHS Foundation Trust">WSHT</abbr></p>
                     <p class="hic_number">5</p>
                     <p class="hic_label">An integrated stop smoking approach</p>
                     <p class="progress"></p>
@@ -1125,7 +1134,7 @@
                     <p class="ap_text">Improve the delivery of smoking brief advice to non elective inpatients</p>
                     <p class="success">Non elective inpatients receive appropriate advice and support to stop
                         smoking</p>
-                    <p class="partner_label">Western Sussex Hospitals NHS Foundation Trust</p>
+                    <p class="partner_label"><abbr title="Western Sussex Hospital NHS Foundation Trust">WSHT</abbr></p>
                     <p class="hic_number">6</p>
                     <p class="hic_label">Build and sustain capacity in tobacco control</p>
                     <p class="progress"></p>
