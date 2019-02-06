@@ -12,12 +12,6 @@
             text-align: center;
         }
 
-        .footer {
-            /* background-color: #e7e7e7; */
-            text-align: left;
-            /* padding: 10px; */
-        }
-
         /* Create two unequal columns that floats next to each other */
         .column {
             float: left;
@@ -650,27 +644,21 @@
     <h1>Smokefree West Sussex Action plan</h1>
 </div>
 
-<p>Use the buttons below to see the 2019-22 Smokefree West Sussex Tobacco control plan actions. Actions are coloured by the 10 high impact changes.</p>
-<p>You can filter the actions by the time frame (short to long term), by relevant partners/stakeholders, or by the level at which the action is expected to operate (individual/community/or environment).</p>
-<p>To learn more about an action, hover over each box.</p>
-
-<p><button class="button button--reset">Reset filters</button></p>
-
 <!-- <div class="search_bar">
     <h2>Search</h2>
     <p><input type="text" id="quicksearch" placeholder="Search"/></p>
 </div> -->
 
-<div class="container">
-    <div class="row">
+
         <div class="column side left">
 
             <div class="ui_group">
 
                 <div class="filter">
                     <h2>Filtering</h2>
+                    <!-- <p><button class="button button--reset">Reset filters</button></p> -->
+                    <p class="filter-count"></p>
                     <h3>High Impact Change</h3>
-
                     <div class="button-group" data-filter-group="hic">
                         <button class="button is-checked" data-filter='*'>All</button>
                         <button class="button" data-filter=".working_partnership">Working in partnership is the building
@@ -759,12 +747,16 @@
 
         <div class="column main">
 
-            <h1>Actions</h1>
-            <p class="filter-count"></p>
+          <h1>Actions</h1>
+          <p>The 2019-22 Smokefree West Sussex Tobacco Control Strategy actions are outlined below. These are a collection of actions agreed by members of the Smokefree West Sussex Partnership to take forward the tobacco control agenda in the county. Actions are coloured by the Department of Health & Social Care's 10 high impact changes to achieve tobacco control.</p>
+          <p>You can filter the actions by the time frame (short to long term), by relevant partners/stakeholders, or by the level at which the action is expected to operate within (individual/community/or environment). To learn more about an action, hover over each box.</p>
 
-            <div class="grid">
+          <div class="container">
+              <div class="row">
 
-              <div class = "grid-item working_partnership mediumterm   individual   lms ">
+
+        <div class="grid">
+        <div class = "grid-item working_partnership mediumterm   individual   lms ">
         <p class = "ap_number">1</p>
         <p class = "ap_title">Integrated stop smoking services across the Local Maternity System</p>
         <p class = "ap_text">Integrated stop smoking services across the Sussex and East Surrey Local Maternity System</p>
@@ -2251,15 +2243,9 @@
 
 <!-- jQuery first, then Bootstrap JS then isotope -->
 
-<div class="footer">
-    <p>© 2019 Rich made this, Inc.</p>
-</div>
-
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 </script>
-<
-script
-src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
 integrity = "sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
 crossorigin = "anonymous" ></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
@@ -2330,7 +2316,6 @@ crossorigin = "anonymous" ></script>
        $buttonGroup.find('.is-checked').addClass('is-checked');
      });
 
-
     // flatten object by concatting values
     function concatValues(obj) {
         var value = '';
@@ -2340,17 +2325,7 @@ crossorigin = "anonymous" ></script>
         return value;
     }
 
-    /**
-     * Filtering grid by searchText
-     */
-
-    // $('#quicksearch').on('keyup', function(){
-    //    searchText = $(this).val();
-    //     $grid.isotope();
-    // });
-
-
-
 </script>
 </body>
+<footer>
 </html>
