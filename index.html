@@ -8,13 +8,13 @@
         /* Style the header */
         .header {
             /* background-color: #e7e7e7; */
-            padding: 10px;
-            text-align: left;
+            /* padding: 10px; */
+            text-align: center;
         }
 
         .footer {
             /* background-color: #e7e7e7; */
-            text-align: center;
+            text-align: left;
             /* padding: 10px; */
         }
 
@@ -23,16 +23,23 @@
             float: left;
         }
 
-        /* Left and right column */
-        .column.side {
+        /* Left column */
+        .column.side.left {
             width: 16%;
             padding-right: 5px;
         }
 
         /* Main column */
         .column.main {
-            width: 84%;
+            width: 74%;
         }
+
+        /*  Right column*/
+        .column.side.right{
+          width: 10%;
+          color: #e7e7e7;
+        }
+
 
         /* Clear floats after the columns */
         .row:after {
@@ -43,7 +50,7 @@
 
         /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
         @media screen and (max-width: 600px) {
-            .column.side, .column.main {
+            .column.side.left, .column.main, .column.side.right {
                 width: 100%;
             }
         }
@@ -409,7 +416,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -417,7 +424,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+            border: 6px dotted;
             border-color: #9B2948;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -431,7 +438,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -439,7 +446,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #CA7F88;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -453,7 +460,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -461,7 +468,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #C1852A;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -476,7 +483,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -484,7 +491,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #4E235A;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -499,7 +506,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -507,7 +514,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #546F2A;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -521,7 +528,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -529,7 +536,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #8DAFC4;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -543,7 +550,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -551,7 +558,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #B5D384;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -565,7 +572,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -573,7 +580,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #E53049;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -587,7 +594,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -595,7 +602,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #00A18C;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -609,7 +616,7 @@
             display: block;
             position: relative;
             top: -40px;
-            min-width: 225px;
+            min-width: 200px;
             min-height: 100px;
             left: 95%;
             background: #fff;
@@ -617,7 +624,7 @@
             font-size: .75em;
             padding: 5px;
             border-radius: 18px;
-            border: 5px dotted;
+              border: 6px dotted;
             border-color: #006BA8;
             box-shadow: 0 3px 20px rgba(0,0,0,0.2);
         }
@@ -634,8 +641,6 @@
             bottom: -4px;
             transform: rotate(45deg);
         } */
-
-
 
     </style>
 </head>
@@ -660,7 +665,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="column side">
+        <div class="column side left">
 
             <div class="ui_group">
 
@@ -2237,8 +2242,15 @@
 
         </div>
         </div>
+
     </div>
+<!-- container div close  -->
 </div>
+
+<!-- column side right after container end -->
+<div class = "column side right">
+</div>
+
 <!-- jQuery first, then Bootstrap JS then isotope -->
 
 <div class="footer">
