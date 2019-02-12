@@ -1,4 +1,4 @@
-value
+"value"
 "<div class = ""grid-item working_partnership mediumterm   individual   lms "">"
 "<p class = ""ap_number"">1</p>"
 "<p class = ""ap_title"">Integrated stop smoking services across the Local Maternity System</p>"
@@ -12,14 +12,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_working_partnership"">"
-<h2>Integrated stop smoking services across the Local Maternity System</h2>
-<p>Integrated stop smoking services across the Sussex and East Surrey Local Maternity System</p>
-<h3>What will success look like?</h3>
-<p>Maternity partners across the Sussex and East Surrey Local Maternity System work together to enhance integrated stop smoking support for mothers and families.</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Local Maternity System</p>
-</div>
-</div>
+"<h2>Integrated stop smoking services across the Local Maternity System</h2>"
+"<p>Integrated stop smoking services across the Sussex and East Surrey Local Maternity System</p>"
+"<h3>What will success look like?</h3>"
+"<p>Maternity partners across the Sussex and East Surrey Local Maternity System work together to enhance integrated stop smoking support for mothers and families.</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Local Maternity System</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item working_partnership shortterm    individual   arun_wellbeing "">"
 "<p class = ""ap_number"">2</p>"
 "<p class = ""ap_title"">Pilot project 'Actively Quitting' using physical activity as a diversion</p>"
@@ -33,14 +33,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_working_partnership"">"
-<h2>Pilot project 'Actively Quitting' using physical activity as a diversion</h2>
-<p>Pilot project 'Actively Quitting' using physical activity as a diversion</p>
-<h3>What will success look like?</h3>
-<p>Smokers will be referred from SSS to leisure provision</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Arun Wellbeing</p>
-</div>
-</div>
+"<h2>Pilot project 'Actively Quitting' using physical activity as a diversion</h2>"
+"<p>Pilot project 'Actively Quitting' using physical activity as a diversion</p>"
+"<h3>What will success look like?</h3>"
+"<p>Smokers will be referred from SSS to leisure provision</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Arun Wellbeing</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item working_partnership longterm  individual   fire_service "">"
 "<p class = ""ap_number"">3</p>"
 "<p class = ""ap_title"">Promote e-cigarettes as a safer and healthier alternative to smoking</p>"
@@ -54,14 +54,14 @@ value
 "<p class = ""timeframe_label"">Long term </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_working_partnership"">"
-<h2>Promote e-cigarettes as a safer and healthier alternative to smoking</h2>
-<p>Promote e-cigarettes as a safer and healthier alternative to smoking. Work with Public Health 'approved' Vape Shops to give vouchers to bed bound clients</p>
-<h3>What will success look like?</h3>
-<p>Increase in number of bed bound smokers using E-cigs instead of cigarettes</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Fire Service</p>
-</div>
-</div>
+"<h2>Promote e-cigarettes as a safer and healthier alternative to smoking</h2>"
+"<p>Promote e-cigarettes as a safer and healthier alternative to smoking. Work with Public Health 'approved' Vape Shops to give vouchers to bed bound clients</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase in number of bed bound smokers using E-cigs instead of cigarettes</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Fire Service</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item gather_data shortterm    community environment trading_standards "">"
 "<p class = ""ap_number"">4</p>"
 "<p class = ""ap_title"">Greater sharing of intelligence to Trading Standards</p>"
@@ -75,14 +75,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community and Environment</p>"
 "<div class=""tooltip_gather_data"">"
-<h2>Greater sharing of intelligence to Trading Standards</h2>
-<p>Greater sharing of intelligence to Trading Standards</p>
-<h3>What will success look like?</h3>
-<p>Increase of intel reports to Trading Standards</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Trading Standards</p>
-</div>
-</div>
+"<h2>Greater sharing of intelligence to Trading Standards</h2>"
+"<p>Greater sharing of intelligence to Trading Standards</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase of intel reports to Trading Standards</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Trading Standards</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item gather_data longterm  individual   lms "">"
 "<p class = ""ap_number"">5</p>"
 "<p class = ""ap_title"">Enhanced maternity dataset</p>"
@@ -96,14 +96,14 @@ value
 "<p class = ""timeframe_label"">Long term </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_gather_data"">"
-<h2>Enhanced maternity dataset</h2>
-<p>Enhanced maternity dataset ensuring smoking status recorded for all pregnant women</p>
-<h3>What will success look like?</h3>
-<p>All hospitals within the local LMS footprint collect and report data.</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Local Maternity System</p>
-</div>
-</div>
+"<h2>Enhanced maternity dataset</h2>"
+"<p>Enhanced maternity dataset ensuring smoking status recorded for all pregnant women</p>"
+"<h3>What will success look like?</h3>"
+"<p>All hospitals within the local LMS footprint collect and report data.</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Local Maternity System</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item gather_data shortterm    individual   public_health "">"
 "<p class = ""ap_number"">6</p>"
 "<p class = ""ap_title"">Improve data capturing from stop smoking services</p>"
@@ -117,14 +117,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_gather_data"">"
-<h2>Improve data capturing from stop smoking services</h2>
-<p>Improve data capturing from stop smoking services</p>
-<h3>What will success look like?</h3>
-<p>Improved data quality to understand service delivery and  targeting</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Improve data capturing from stop smoking services</h2>"
+"<p>Improve data capturing from stop smoking services</p>"
+"<h3>What will success look like?</h3>"
+"<p>Improved data quality to understand service delivery and  targeting</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item gather_data mediumterm   community  lms "">"
 "<p class = ""ap_number"">7</p>"
 "<p class = ""ap_title"">Produce smoking cessation gap analysis and action plan</p>"
@@ -138,14 +138,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_gather_data"">"
-<h2>Produce smoking cessation gap analysis and action plan</h2>
+"<h2>Produce smoking cessation gap analysis and action plan</h2>"
 "<p>Produce smoking cessation gap analysis and action plan, based on NICE guidance (PH26) and CLeaR Assessment</p>"
-<h3>What will success look like?</h3>
-<p>Maternity systems demonstrate enhanced stop smoking support and pathways in line with NICE guidance and CLeaR Assessments</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Local Maternity System</p>
-</div>
-</div>
+"<h3>What will success look like?</h3>"
+"<p>Maternity systems demonstrate enhanced stop smoking support and pathways in line with NICE guidance and CLeaR Assessments</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Local Maternity System</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item gather_data shortterm mediumterm   community  worthing_wellbeing all_hubs "">"
 "<p class = ""ap_number"">8</p>"
 "<p class = ""ap_title"">Report the number of people signposted</p>"
@@ -159,14 +159,14 @@ value
 "<p class = ""timeframe_label"">Short term and Medium term </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_gather_data"">"
-<h2>Report the number of people signposted</h2>
-<p>Report on the number of people signposted to stop smoking services from wellbeing hubs</p>
-<h3>What will success look like?</h3>
-<p>Awareness of local smoking population data collected and shared</p>
-<h3>Who are key the parters for this action?</h3>
+"<h2>Report the number of people signposted</h2>"
+"<p>Report on the number of people signposted to stop smoking services from wellbeing hubs</p>"
+"<h3>What will success look like?</h3>"
+"<p>Awareness of local smoking population data collected and shared</p>"
+"<h3>Who are key the parters for this action?</h3>"
 "<p>Worthing Wellbeing, all hubs</p>"
-</div>
-</div>
+"</div>"
+"</div>"
 "<div class = ""grid-item gather_data shortterm    community  arun_wellbeing "">"
 "<p class = ""ap_number"">9</p>"
 "<p class = ""ap_title"">Share data gathered from health MOTs</p>"
@@ -180,14 +180,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_gather_data"">"
-<h2>Share data gathered from health MOTs</h2>
-<p>Share data gathered from health MOTs to show the number of people identified as smokers</p>
-<h3>What will success look like?</h3>
-<p>Awareness of local smoking population data collected and shared</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Arun Wellbeing</p>
-</div>
-</div>
+"<h2>Share data gathered from health MOTs</h2>"
+"<p>Share data gathered from health MOTs to show the number of people identified as smokers</p>"
+"<h3>What will success look like?</h3>"
+"<p>Awareness of local smoking population data collected and shared</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Arun Wellbeing</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item gather_data shortterm    individual   maternity wsht "">"
 "<p class = ""ap_number"">10</p>"
 "<p class = ""ap_title"">Smoking status recorded for all pregnant women</p>"
@@ -201,14 +201,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_gather_data"">"
-<h2>Smoking status recorded for all pregnant women</h2>
-<p>Smoking status of all pregnant women captured at time of booking and delivery (mandatory)</p>
-<h3>What will success look like?</h3>
-<p>Accurate data recorded and shared</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Maternity at Western Hospitals</p>
-</div>
-</div>
+"<h2>Smoking status recorded for all pregnant women</h2>"
+"<p>Smoking status of all pregnant women captured at time of booking and delivery (mandatory)</p>"
+"<h3>What will success look like?</h3>"
+"<p>Accurate data recorded and shared</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Maternity at Western Hospitals</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item gather_data mediumterm   community  h4f "">"
 "<p class = ""ap_number"">11</p>"
 "<p class = ""ap_title"">Quantify tobacco use by district, age ranges, and ethnicty</p>"
@@ -224,12 +224,12 @@ value
 "<div class=""tooltip_gather_data"">"
 "<h2>Quantify tobacco use by district, age ranges, and ethnicty</h2>"
 "<p>Quantify tobacco use by district, age ranges, and ethnicty</p>"
-<h3>What will success look like?</h3>
-<p>Health4Families will be able to target groups to allow appropriate health messages</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Health4Families</p>
-</div>
-</div>
+"<h3>What will success look like?</h3>"
+"<p>Health4Families will be able to target groups to allow appropriate health messages</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Health4Families</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item health_inequalities mediumterm   community  public_health "">"
 "<p class = ""ap_number"">12</p>"
 "<p class = ""ap_title"">Refresh the Health Equity Audit for stop smoking services</p>"
@@ -243,14 +243,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_health_inequalities"">"
-<h2>Refresh the Health Equity Audit for stop smoking services</h2>
-<p>Refresh the West Sussex Health Equit Audit for stop smoking services</p>
-<h3>What will success look like?</h3>
-<p>Completed HEA used to inform servicee redseign</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Refresh the Health Equity Audit for stop smoking services</h2>"
+"<p>Refresh the West Sussex Health Equit Audit for stop smoking services</p>"
+"<h3>What will success look like?</h3>"
+"<p>Completed HEA used to inform servicee redseign</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item health_inequalities mediumterm   community  public_health "">"
 "<p class = ""ap_number"">13</p>"
 "<p class = ""ap_title"">Increase understanding of attitudes to smoking among Eastern Europeans</p>"
@@ -264,14 +264,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_health_inequalities"">"
-<h2>Increase understanding of attitudes to smoking among Eastern Europeans</h2>
-<p>Increase local understanding of attitudes towards smoking among Eastern Europeans in West Sussex</p>
-<h3>What will success look like?</h3>
-<p>Approriate interventions developed based on insight</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Increase understanding of attitudes to smoking among Eastern Europeans</h2>"
+"<p>Increase local understanding of attitudes towards smoking among Eastern Europeans in West Sussex</p>"
+"<h3>What will success look like?</h3>"
+"<p>Approriate interventions developed based on insight</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item health_inequalities longterm  community  public_health "">"
 "<p class = ""ap_number"">14</p>"
 "<p class = ""ap_title"">Support with smokefree prisons</p>"
@@ -285,14 +285,14 @@ value
 "<p class = ""timeframe_label"">Long term </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_health_inequalities"">"
-<h2>Support with smokefree prisons</h2>
-<p>Support  Ministry of Justice and Public Health England with smokefree prisons</p>
-<h3>What will success look like?</h3>
-<p>Improved pathway for those being released from prison to support their smoking cessation</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Support with smokefree prisons</h2>"
+"<p>Support  Ministry of Justice and Public Health England with smokefree prisons</p>"
+"<h3>What will success look like?</h3>"
+"<p>Improved pathway for those being released from prison to support their smoking cessation</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item health_inequalities mediumterm   community  h4f "">"
 "<p class = ""ap_number"">15</p>"
 "<p class = ""ap_title"">Health4Families targetting tobacco related activity</p>"
@@ -306,14 +306,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_health_inequalities"">"
-<h2>Health4Families targetting tobacco related activity</h2>
-<p>Target Health4Families tobacco related activity at young parents in areas of deprivation</p>
-<h3>What will success look like?</h3>
-<p>Increase of young parents/people from deprived wards engaging with SSS</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Health4Families</p>
-</div>
-</div>
+"<h2>Health4Families targetting tobacco related activity</h2>"
+"<p>Target Health4Families tobacco related activity at young parents in areas of deprivation</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase of young parents/people from deprived wards engaging with SSS</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Health4Families</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item health_inequalities shortterm mediumterm   community  worthing_wellbeing "">"
 "<p class = ""ap_number"">16</p>"
 "<p class = ""ap_title"">Offer targetted workplace health (WPH) services</p>"
@@ -327,14 +327,14 @@ value
 "<p class = ""timeframe_label"">Short term and Medium term </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_health_inequalities"">"
-<h2>Offer targetted workplace health (WPH) services</h2>
-<p>Target businesses in deprived areas to offer workplace health (WPH) services</p>
-<h3>What will success look like?</h3>
-<p>Increase in the number of smokers acessing SSS from workplaces deprived areas</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Worthing Wellbeing</p>
-</div>
-</div>
+"<h2>Offer targetted workplace health (WPH) services</h2>"
+"<p>Target businesses in deprived areas to offer workplace health (WPH) services</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase in the number of smokers acessing SSS from workplaces deprived areas</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Worthing Wellbeing</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item health_inequalities mediumterm   community  prisons "">"
 "<p class = ""ap_number"">17</p>"
 "<p class = ""ap_title"">Improving links between prisons and community stop smoking services</p>"
@@ -348,14 +348,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_health_inequalities"">"
-<h2>Improving links between prisons and community stop smoking services</h2>
-<p>Build on national smokefree prisons programme by improving links with the community stop smoking services</p>
-<h3>What will success look like?</h3>
-<p>A pathway to support those being released from prison estate to continue their stop smoking attempt</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Prisons</p>
-</div>
-</div>
+"<h2>Improving links between prisons and community stop smoking services</h2>"
+"<p>Build on national smokefree prisons programme by improving links with the community stop smoking services</p>"
+"<h3>What will success look like?</h3>"
+"<p>A pathway to support those being released from prison estate to continue their stop smoking attempt</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Prisons</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item health_inequalities shortterm    community  arun_wellbeing "">"
 "<p class = ""ap_number"">18</p>"
 "<p class = ""ap_title"">Use 'Actively Quitting' pilot to target disadvantaged wards</p>"
@@ -369,14 +369,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_health_inequalities"">"
-<h2>Use 'Actively Quitting' pilot to target disadvantaged wards</h2>
-<p>Use 'Actively Quitting' pilot to target disadvantaged wards</p>
-<h3>What will success look like?</h3>
-<p>Smokers from disadvantaged wards will be referred from SSS to leisure provision</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Arun Wellbeing</p>
-</div>
-</div>
+"<h2>Use 'Actively Quitting' pilot to target disadvantaged wards</h2>"
+"<p>Use 'Actively Quitting' pilot to target disadvantaged wards</p>"
+"<h3>What will success look like?</h3>"
+"<p>Smokers from disadvantaged wards will be referred from SSS to leisure provision</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Arun Wellbeing</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item health_inequalities mediumterm   individual   public_health "">"
 "<p class = ""ap_number"">19</p>"
 "<p class = ""ap_title"">Uptake of stop smoking services among substance misuse service users</p>"
@@ -390,14 +390,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_health_inequalities"">"
-<h2>Uptake of stop smoking services among substance misuse service users</h2>
-<p>Work with substance misuse services to improve uptake of stop smoking services by service users</p>
-<h3>What will success look like?</h3>
-<p>Improved pathway for those accesing substance misuse services to support their smoking cessation</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Uptake of stop smoking services among substance misuse service users</h2>"
+"<p>Work with substance misuse services to improve uptake of stop smoking services by service users</p>"
+"<h3>What will success look like?</h3>"
+"<p>Improved pathway for those accesing substance misuse services to support their smoking cessation</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item deliver_cccc shortterm mediumterm   community  arun_wellbeing h4f trading_standards worthing_wellbeing all_hubs "">"
 "<p class = ""ap_number"">20</p>"
 "<p class = ""ap_title"">Actively participate in national and local tobacco control campaigns</p>"
@@ -411,14 +411,14 @@ value
 "<p class = ""timeframe_label"">Short term and Medium term </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_deliver_cccc"">"
-<h2>Actively participate in national and local tobacco control campaigns</h2>
-<p>Actively participate in national and local tobacco control campaigns</p>
-<h3>What will success look like?</h3>
+"<h2>Actively participate in national and local tobacco control campaigns</h2>"
+"<p>Actively participate in national and local tobacco control campaigns</p>"
+"<h3>What will success look like?</h3>"
 "<p>Evaluation of campaign reach, which increases year on year</p>"
-<h3>Who are key the parters for this action?</h3>
+"<h3>Who are key the parters for this action?</h3>"
 "<p>Arun Wellbeing, Health4Families, Trading Standards, Worthing Wellbeing</p>"
-</div>
-</div>
+"</div>"
+"</div>"
 "<div class = ""grid-item deliver_cccc shortterm mediumterm   community  fire_service "">"
 "<p class = ""ap_number"">21</p>"
 "<p class = ""ap_title"">Annual campaign community event</p>"
@@ -432,14 +432,14 @@ value
 "<p class = ""timeframe_label"">Short term and Medium term </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_deliver_cccc"">"
-<h2>Annual campaign community event</h2>
-<p>Actively participate in national and local tobacco control campaigns through at least one annual campaign community event organised by 10 fire stations and through social media</p>
-<h3>What will success look like?</h3>
+"<h2>Annual campaign community event</h2>"
+"<p>Actively participate in national and local tobacco control campaigns through at least one annual campaign community event organised by 10 fire stations and through social media</p>"
+"<h3>What will success look like?</h3>"
 "<p>Evaluation of campaign reach, which increases year on year</p>"
-<h3>Who are key the parters for this action?</h3>
-<p>Fire Service</p>
-</div>
-</div>
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Fire Service</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item deliver_cccc mediumterm   community  communities "">"
 "<p class = ""ap_number"">22</p>"
 "<p class = ""ap_title"">Identify approaches that best serve different communities</p>"
@@ -453,14 +453,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_deliver_cccc"">"
-<h2>Identify approaches that best serve different communities</h2>
-<p>Identify approaches to disemminating smokefree messages that best serve different communities</p>
-<h3>What will success look like?</h3>
+"<h2>Identify approaches that best serve different communities</h2>"
+"<p>Identify approaches to disemminating smokefree messages that best serve different communities</p>"
+"<h3>What will success look like?</h3>"
 "<p>Engagement with  BAME groups , particularly Eastern European to gain insight into attitudes towards tobacco use</p>"
-<h3>Who are key the parters for this action?</h3>
-<p>Communities</p>
-</div>
-</div>
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Communities</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item deliver_cccc shortterm    environment public_health "">"
 "<p class = ""ap_number"">23</p>"
 "<p class = ""ap_title"">Lead on tobacco control communication and campaigns</p>"
@@ -474,14 +474,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Environment</p>"
 "<div class=""tooltip_deliver_cccc"">"
-<h2>Lead on tobacco control communication and campaigns</h2>
-<p>Lead on tobacco control communication and campaigns</p>
-<h3>What will success look like?</h3>
-<p>A communication plan for the period of this strategy is produced</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Lead on tobacco control communication and campaigns</h2>"
+"<p>Lead on tobacco control communication and campaigns</p>"
+"<h3>What will success look like?</h3>"
+"<p>A communication plan for the period of this strategy is produced</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item deliver_cccc shortterm    community  wsht scft West Sussex County Council "">"
 "<p class = ""ap_number"">24</p>"
 "<p class = ""ap_title"">Provide evidence based information via Family Assist</p>"
@@ -495,14 +495,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_deliver_cccc"">"
-<h2>Provide evidence based information via Family Assist</h2>
+"<h2>Provide evidence based information via Family Assist</h2>"
 "<p>Provision of evidence based and consistent information, including on smoking cessation, to all families across West Sussex, via an easily accessed and interactive digital platform (Family Assist)</p>"
-<h3>What will success look like?</h3>
+"<h3>What will success look like?</h3>"
 "<p>Family Assist achieves high levels of engagement with mothers and families in the provision of comprehensive pre-conception guidance, including on stop smoking information</p>"
-<h3>Who are key the parters for this action?</h3>
+"<h3>Who are key the parters for this action?</h3>"
 "<p>Western Sussex Hospitals NHS Foundation Trust, Sussex Community NHS Foundation Trust, West Sussex County Council</p>"
-</div>
-</div>
+"</div>"
+"</div>"
 "<div class = ""grid-item deliver_cccc shortterm    individual   fire_service "">"
 "<p class = ""ap_number"">25</p>"
 "<p class = ""ap_title"">Distribute 5,000 Safe and Well information booklets</p>"
@@ -518,12 +518,12 @@ value
 "<div class=""tooltip_deliver_cccc"">"
 "<h2>Distribute 5,000 Safe and Well information booklets</h2>"
 "<p>Distribute 5,000 Safe and Well information booklets to residents receiving a Safe and Well visit. Booklets include information on smoking related fires, how to make a home smoke free and where to go for smoking cessation support.</p>"
-<h3>What will success look like?</h3>
+"<h3>What will success look like?</h3>"
 "<p>5,000 booklets will be disctributed to vulnerable people in their homes</p>"
-<h3>Who are key the parters for this action?</h3>
-<p>Fire Service</p>
-</div>
-</div>
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Fire Service</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm    community  public_health "">"
 "<p class = ""ap_number"">26</p>"
 "<p class = ""ap_title"">Wellbeing programme that supports tobacco control</p>"
@@ -537,14 +537,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Wellbeing programme that supports tobacco control</h2>
-<p>Develop the role of the wellbeing programme to support tobacco control</p>
-<h3>What will success look like?</h3>
-<p>West Sussex wellbeing programmes are more engaged in tobacco control</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Wellbeing programme that supports tobacco control</h2>"
+"<p>Develop the role of the wellbeing programme to support tobacco control</p>"
+"<h3>What will success look like?</h3>"
+"<p>West Sussex wellbeing programmes are more engaged in tobacco control</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach longterm  individual   public_health "">"
 "<p class = ""ap_number"">27</p>"
 "<p class = ""ap_title"">Redesign stop smoking service provision in West Sussex</p>"
@@ -558,14 +558,14 @@ value
 "<p class = ""timeframe_label"">Long term </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Redesign stop smoking service provision in West Sussex</h2>
-<p>Redesign stop smoking service provision in West Sussex</p>
-<h3>What will success look like?</h3>
-<p>Effective stop smoking services reaching those that most need to access them</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Redesign stop smoking service provision in West Sussex</h2>"
+"<p>Redesign stop smoking service provision in West Sussex</p>"
+"<h3>What will success look like?</h3>"
+"<p>Effective stop smoking services reaching those that most need to access them</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm    individual   public_health "">"
 "<p class = ""ap_number"">28</p>"
 "<p class = ""ap_title"">Work with Vape shops to support stop smoking providers in primary care</p>"
@@ -579,14 +579,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Work with Vape shops to support stop smoking providers in primary care</h2>
-<p>Work with Vape shops to support stop smoking providers</p>
-<h3>What will success look like?</h3>
-<p>Improved quit rates. Increased comfidence in stop smoking providers to discuss vaping as a mtehod to quit tobacco</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Work with Vape shops to support stop smoking providers in primary care</h2>"
+"<p>Work with Vape shops to support stop smoking providers</p>"
+"<h3>What will success look like?</h3>"
+"<p>Improved quit rates. Increased comfidence in stop smoking providers to discuss vaping as a mtehod to quit tobacco</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm    community  wsht "">"
 "<p class = ""ap_number"">29</p>"
 "<p class = ""ap_title"">Patients are asked about their use of tobacco at pre-assessment clinics</p>"
@@ -600,19 +600,19 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Patients are asked about their use of tobacco at pre-assessment clinics</h2>
-<p>All patients attending pre assessment clinic are asked about their use of tobacco. Smokers are given brief advice and signposted to local stop smoking services</p>
-<h3>What will success look like?</h3>
-<p>Increase  in number of elective patients being signposted to stop smoking services</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Western Sussex Hospitals NHS Foundation Trust</p>
-</div>
-</div>
+"<h2>Patients are asked about their use of tobacco at pre-assessment clinics</h2>"
+"<p>All patients attending pre assessment clinic are asked about their use of tobacco. Smokers are given brief advice and signposted to local stop smoking services</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase  in number of elective patients being signposted to stop smoking services</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Western Sussex Hospitals NHS Foundation Trust</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm    individual   public_health "">"
 "<p class = ""ap_number"">30</p>"
 "<p class = ""ap_title"">Develop a Patient Group Directive around Champix prescribing</p>"
 "<p class = ""ap_text"">Develop a Patient Group Directive around Champix prescribing</p>"
-"<p class = ""success"">Improved quit rates in phamracy providers</p>"
+"<p class = ""success"">Improved quit rates in pharmacy providers</p>"
 "<p class = ""partner_label"">Public Health</p>"
 "<p class = ""hic_number"">5</p>"
 "<p class = ""hic_label"">An integrated stop smoking approach</p>"
@@ -621,14 +621,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Develop a Patient Group Directive around Champix prescribing</h2>
-<p>Develop a Patient Group Directive around Champix prescribing</p>
-<h3>What will success look like?</h3>
-<p>Improved quit rates in phamracy providers</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Develop a Patient Group Directive around Champix prescribing</h2>"
+"<p>Develop a Patient Group Directive around Champix prescribing</p>"
+"<h3>What will success look like?</h3>"
+"<p>Improved quit rates in pharmacy providers</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm    individual   public_health "">"
 "<p class = ""ap_number"">31</p>"
 "<p class = ""ap_title"">improve quality of stop smoking service delivery</p>"
@@ -642,14 +642,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>improve quality of stop smoking service delivery</h2>
-<p>improve quality of stop smoking service delivery</p>
-<h3>What will success look like?</h3>
-<p>Improved conversion rates</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>improve quality of stop smoking service delivery</h2>"
+"<p>improve quality of stop smoking service delivery</p>"
+"<h3>What will success look like?</h3>"
+"<p>Improved conversion rates</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm    individual   public_health "">"
 "<p class = ""ap_number"">32</p>"
 "<p class = ""ap_title"">Improved training offer for stop smoking services</p>"
@@ -663,14 +663,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Improved training offer for stop smoking services</h2>
-<p>Improve training offer for providers of stop smoking services</p>
-<h3>What will success look like?</h3>
-<p>Face to face training for new advisors in place and be spoke elearning package for top up training</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Improved training offer for stop smoking services</h2>"
+"<p>Improve training offer for providers of stop smoking services</p>"
+"<h3>What will success look like?</h3>"
+"<p>Face to face training for new advisors in place and be spoke elearning package for top up training</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm    individual   maternity wsht "">"
 "<p class = ""ap_number"">33</p>"
 "<p class = ""ap_title"">Referral and follow up to stop smoking services</p>"
@@ -684,14 +684,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Referral and follow up to stop smoking services</h2>
-<p>Referral and follow up to stop smoking services whether the stop smoking intervention is inhouse or external</p>
-<h3>What will success look like?</h3>
-<p>Drop in number of pregnant women still smoking at time of delivery compared to booking</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Maternity at Western Hospitals</p>
-</div>
-</div>
+"<h2>Referral and follow up to stop smoking services</h2>"
+"<p>Referral and follow up to stop smoking services whether the stop smoking intervention is inhouse or external</p>"
+"<h3>What will success look like?</h3>"
+"<p>Drop in number of pregnant women still smoking at time of delivery compared to booking</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Maternity at Western Hospitals</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm    individual   arun_wellbeing "">"
 "<p class = ""ap_number"">34</p>"
 "<p class = ""ap_title"">Share data gathered from health MOTs</p>"
@@ -705,14 +705,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Share data gathered from health MOTs</h2>
-<p>Share data gathered from health MOTs to show the number of people identified as smokers who have been signposted/referred into SSS</p>
-<h3>What will success look like?</h3>
-<p>Increase in referrals to SSS</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Arun Wellbeing</p>
-</div>
-</div>
+"<h2>Share data gathered from health MOTs</h2>"
+"<p>Share data gathered from health MOTs to show the number of people identified as smokers who have been signposted/referred into SSS</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase in referrals to SSS</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Arun Wellbeing</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach longterm  individual   lms "">"
 "<p class = ""ap_number"">35</p>"
 "<p class = ""ap_title"">Test an integrated midwifery-led stop smoking service</p>"
@@ -726,14 +726,14 @@ value
 "<p class = ""timeframe_label"">Long term </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Test an integrated midwifery-led stop smoking service</h2>
-<p>Test an integrated tier 2 midwifery led stop smoking support service</p>
-<h3>What will success look like?</h3>
-<p>Increase in maternal quit rates between booking and delivery. Shared and integrated learning across Sussex and East Surrey Local Maternity Systems</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Local Maternity System</p>
-</div>
-</div>
+"<h2>Test an integrated midwifery-led stop smoking service</h2>"
+"<p>Test an integrated tier 2 midwifery led stop smoking support service</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase in maternal quit rates between booking and delivery. Shared and integrated learning across Sussex and East Surrey Local Maternity Systems</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Local Maternity System</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach mediumterm   community  public_health "">"
 "<p class = ""ap_number"">36</p>"
 "<p class = ""ap_title"">Preventing ill health from alcohol and tobacco CQUIN</p>"
@@ -747,17 +747,17 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Preventing ill health from alcohol and tobacco CQUIN</h2>
-<p>Support NHS achieve the preventing ill health from alcohol and tobacco CQUIN</p>
-<h3>What will success look like?</h3>
-<p>Local NHS Trusts have achieved the CQUIN</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Preventing ill health from alcohol and tobacco CQUIN</h2>"
+"<p>Support NHS achieve the preventing ill health from alcohol and tobacco CQUIN</p>"
+"<h3>What will success look like?</h3>"
+"<p>Local NHS Trusts have achieved the CQUIN</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm mediumterm longterm ongoing individual   public_health "">"
 "<p class = ""ap_number"">37</p>"
-"<p class = ""ap_title"">Provide training for primary care staff to deliver stop smoking services</p>"
+"<p class = ""ap_title"">Training for primary care staff to deliver stop smoking services</p>"
 "<p class = ""ap_text"">Provide training for primary care staff to deliver stop smoking services</p>"
 "<p class = ""success"">Primary care staff are able to deliver stop smoking services</p>"
 "<p class = ""partner_label"">Public Health</p>"
@@ -768,17 +768,17 @@ value
 "<p class = ""timeframe_label"">Ongoing</p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Provide training for primary care staff to deliver stop smoking services</h2>
-<p>Provide training for primary care staff to deliver stop smoking services</p>
-<h3>What will success look like?</h3>
-<p>Primary care staff are able to deliver stop smoking services</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Training for primary care staff to deliver stop smoking services</h2>"
+"<p>Provide training for primary care staff to deliver stop smoking services</p>"
+"<h3>What will success look like?</h3>"
+"<p>Primary care staff are able to deliver stop smoking services</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item integrated_approach shortterm mediumterm longterm ongoing individual   public_health "">"
 "<p class = ""ap_number"">38</p>"
-"<p class = ""ap_title"">Work with primary care service providers to improve quantity and quality of services delivered</p>"
+"<p class = ""ap_title"">Work with primary care service providers to improve services delivered</p>"
 "<p class = ""ap_text"">Work with primary care service providers to improve quantity and quality of services delivered</p>"
 "<p class = ""success"">More stop smoking services within primary care</p>"
 "<p class = ""partner_label"">Public Health</p>"
@@ -789,14 +789,14 @@ value
 "<p class = ""timeframe_label"">Ongoing</p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_integrated_approach"">"
-<h2>Work with primary care service providers to improve quantity and quality of services delivered</h2>
-<p>Work with primary care service providers to improve quantity and quality of services delivered</p>
-<h3>What will success look like?</h3>
-<p>More stop smoking services within primary care</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Work with primary care service providers to improve services delivered</h2>"
+"<p>Work with primary care service providers to improve quantity and quality of services delivered</p>"
+"<h3>What will success look like?</h3>"
+"<p>More stop smoking services within primary care</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity shortterm    individual   fire_service "">"
 "<p class = ""ap_number"">39</p>"
 "<p class = ""ap_title"">Home visiting staff trained in Make Every Contact Count (MECC)</p>"
@@ -810,17 +810,17 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Home visiting staff trained in Make Every Contact Count (MECC)</h2>
-<p>Train Prevention Team home visiting staff in Make Every Contact Count (MECC)</p>
-<h3>What will success look like?</h3>
-<p>Staff will be more confident in having signposting conversations about smoking cessation and making a record</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Fire Service</p>
-</div>
-</div>
+"<h2>Home visiting staff trained in Make Every Contact Count (MECC)</h2>"
+"<p>Train Prevention Team home visiting staff in Make Every Contact Count (MECC)</p>"
+"<h3>What will success look like?</h3>"
+"<p>Staff will be more confident in having signposting conversations about smoking cessation and making a record</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Fire Service</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity mediumterm   individual   fire_service "">"
 "<p class = ""ap_number"">40</p>"
-"<p class = ""ap_title"">Roll out Make Every Contact Count (MECC) to 30% of operational crews</p>"
+"<p class = ""ap_title"">Rollout Make Every Contact Count (MECC) to 30% of operational crews</p>"
 "<p class = ""ap_text"">Work with the Fire and Rescue Training and Development team to roll out Make Every Contact Count (MECC) to 30% of operational crews</p>"
 "<p class = ""success"">30% of operational personnel will be more confident in having signposting conversations about smoking cessation and recording</p>"
 "<p class = ""partner_label"">Fire Service</p>"
@@ -831,14 +831,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Roll out Make Every Contact Count (MECC) to 30% of operational crews</h2>
-<p>Work with the Fire and Rescue Training and Development team to roll out Make Every Contact Count (MECC) to 30% of operational crews</p>
-<h3>What will success look like?</h3>
-<p>30% of operational personnel will be more confident in having signposting conversations about smoking cessation and recording</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Fire Service</p>
-</div>
-</div>
+"<h2>Rollout Make Every Contact Count (MECC) to 30% of operational crews</h2>"
+"<p>Work with the Fire and Rescue Training and Development team to roll out Make Every Contact Count (MECC) to 30% of operational crews</p>"
+"<h3>What will success look like?</h3>"
+"<p>30% of operational personnel will be more confident in having signposting conversations about smoking cessation and recording</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Fire Service</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity shortterm    community  lms "">"
 "<p class = ""ap_number"">41</p>"
 "<p class = ""ap_title"">A Local Maternity System (LMS) wide action plan</p>"
@@ -852,14 +852,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>A Local Maternity System (LMS) wide action plan</h2>
-<p>A Local Maternity System (LMS) wide action plan will be developed</p>
-<h3>What will success look like?</h3>
-<p>Plan developed for use by all organisations which are part of the local LMS.</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Local Maternity System</p>
-</div>
-</div>
+"<h2>A Local Maternity System (LMS) wide action plan</h2>"
+"<p>A Local Maternity System (LMS) wide action plan will be developed</p>"
+"<h3>What will success look like?</h3>"
+"<p>Plan developed for use by all organisations which are part of the local LMS.</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Local Maternity System</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity shortterm    individual   maternity wsht "">"
 "<p class = ""ap_number"">42</p>"
 "<p class = ""ap_title"">Carbon monoxide (CO) testing at antenatal appointments</p>"
@@ -873,14 +873,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Carbon monoxide (CO) testing at antenatal appointments</h2>
-<p>Carbon monoxide (CO) testing at antenatal appointments for all pregnant women</p>
-<h3>What will success look like?</h3>
-<p>All Pregnant women attending antenatal appointments will be CO tested</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Maternity at Western Hospitals</p>
-</div>
-</div>
+"<h2>Carbon monoxide (CO) testing at antenatal appointments</h2>"
+"<p>Carbon monoxide (CO) testing at antenatal appointments for all pregnant women</p>"
+"<h3>What will success look like?</h3>"
+"<p>All Pregnant women attending antenatal appointments will be CO tested</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Maternity at Western Hospitals</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity mediumterm   community  lms "">"
 "<p class = ""ap_number"">43</p>"
 "<p class = ""ap_title"">Training delivered to all HCP staff involved in the care of pregnant women</p>"
@@ -894,14 +894,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Training delivered to all HCP staff involved in the care of pregnant women</h2>
+"<h2>Training delivered to all HCP staff involved in the care of pregnant women</h2>"
 "<p>Ensure training is delivered to all HCP staff involved in the care of pregnant women in the identification of smoking, delivery of smoking cessation advice and referring to smoking cessation services</p>"
-<h3>What will success look like?</h3>
-<p>Each organisation has training developed and available to relevant workforce.</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Local Maternity System</p>
-</div>
-</div>
+"<h3>What will success look like?</h3>"
+"<p>Each organisation has training developed and available to relevant workforce.</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Local Maternity System</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity longterm  individual   public_health "">"
 "<p class = ""ap_number"">44</p>"
 "<p class = ""ap_title"">Explore how Dentists could support tobacco control</p>"
@@ -915,14 +915,14 @@ value
 "<p class = ""timeframe_label"">Long term </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Explore how Dentists could support tobacco control</h2>
-<p>Explore how Dentists could support tobacco control</p>
-<h3>What will success look like?</h3>
-<p>Understand the views of dentists to support tobacco control</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Explore how Dentists could support tobacco control</h2>"
+"<p>Explore how Dentists could support tobacco control</p>"
+"<h3>What will success look like?</h3>"
+"<p>Understand the views of dentists to support tobacco control</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity mediumterm   individual   wsht "">"
 "<p class = ""ap_number"">45</p>"
 "<p class = ""ap_title"">Delivery of smoking brief advice to non-elective inpatients</p>"
@@ -936,17 +936,17 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Delivery of smoking brief advice to non-elective inpatients</h2>
-<p>Improve the delivery of smoking brief advice to non elective inpatients</p>
-<h3>What will success look like?</h3>
-<p>Non elective inpatients receive appropriate advice and support to stop smoking</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Western Sussex Hospitals NHS Foundation Trust</p>
-</div>
-</div>
+"<h2>Delivery of smoking brief advice to non-elective inpatients</h2>"
+"<p>Improve the delivery of smoking brief advice to non elective inpatients</p>"
+"<h3>What will success look like?</h3>"
+"<p>Non elective inpatients receive appropriate advice and support to stop smoking</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Western Sussex Hospitals NHS Foundation Trust</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity mediumterm   individual   public_health "">"
 "<p class = ""ap_number"">46</p>"
-"<p class = ""ap_title"">Rollout Make Every Contact Count programme to clinical and non-clinical staff</p>"
+"<p class = ""ap_title"">Rollout Make Every Contact Count to clinical and non-clinical staff</p>"
 "<p class = ""ap_text"">Rollout Make Every Contact Count (MECC) programme to clinical and non-clinical staff in healthcare settings such as primary care</p>"
 "<p class = ""success"">Increased confidence of front line staff in raising the issue of smoking</p>"
 "<p class = ""partner_label"">Public Health</p>"
@@ -957,14 +957,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Rollout Make Every Contact Count programme to clinical and non-clinical staff</h2>
-<p>Rollout Make Every Contact Count (MECC) programme to clinical and non-clinical staff in healthcare settings such as primary care</p>
-<h3>What will success look like?</h3>
-<p>Increased confidence of front line staff in raising the issue of smoking</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Rollout Make Every Contact Count to clinical and non-clinical staff</h2>"
+"<p>Rollout Make Every Contact Count (MECC) programme to clinical and non-clinical staff in healthcare settings such as primary care</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increased confidence of front line staff in raising the issue of smoking</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity shortterm    individual   fire_service "">"
 "<p class = ""ap_number"">47</p>"
 "<p class = ""ap_title"">Signpost smokers to stop smoking services</p>"
@@ -978,14 +978,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Signpost smokers to stop smoking services</h2>
-<p>Signpost smokers to stop smoking services when conducting Safe and Well visits</p>
-<h3>What will success look like?</h3>
-<p>Increase in the number of people accessing the SSS</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Fire Service</p>
-</div>
-</div>
+"<h2>Signpost smokers to stop smoking services</h2>"
+"<p>Signpost smokers to stop smoking services when conducting Safe and Well visits</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase in the number of people accessing the SSS</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Fire Service</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity shortterm    individual   h4f "">"
 "<p class = ""ap_number"">48</p>"
 "<p class = ""ap_title"">Health4Families staff training</p>"
@@ -999,14 +999,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Health4Families staff training</h2>
-<p>Health4Families staff to complete National Centre for Smoking Cessation and Training Very Brief Advice level 1 training.</p>
-<h3>What will success look like?</h3>
+"<h2>Health4Families staff training</h2>"
+"<p>Health4Families staff to complete National Centre for Smoking Cessation and Training Very Brief Advice level 1 training.</p>"
+"<h3>What will success look like?</h3>"
 "<p>1. All staff will be VBA trained,            2. Staff will be confident to discuss smoking cessation and record conversation outcome</p>"
-<h3>Who are key the parters for this action?</h3>
-<p>Health4Families</p>
-</div>
-</div>
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Health4Families</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity shortterm    individual   all_hubs "">"
 "<p class = ""ap_number"">49</p>"
 "<p class = ""ap_title"">Wellbeing hub staff level 1 training</p>"
@@ -1020,14 +1020,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Wellbeing hub staff level 1 training</h2>
-<p>Wellbeing hub staff to complete National Centre for Smoking Cessation and Training Very Brief Advice level 1 trianing.</p>
-<h3>What will success look like?</h3>
+"<h2>Wellbeing hub staff level 1 training</h2>"
+"<p>Wellbeing hub staff to complete National Centre for Smoking Cessation and Training Very Brief Advice level 1 trianing.</p>"
+"<h3>What will success look like?</h3>"
 "<p>1. All wellbeing staff will be VBA trained,            2. Wellbeing staff will be confident to discuss smoking cessation and record conversation outcome</p>"
-<h3>Who are key the parters for this action?</h3>
-<p>All hubs</p>
-</div>
-</div>
+"<h3>Who are key the parters for this action?</h3>"
+"<p>All hubs</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity shortterm    individual   all_hubs "">"
 "<p class = ""ap_number"">50</p>"
 "<p class = ""ap_title"">Wellbeing hub staff level 2 training</p>"
@@ -1041,14 +1041,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Wellbeing hub staff level 2 training</h2>
-<p>Wellbeing hub staff to complete National Centre for Smoking Cessation and Training Very Brief Advice level 2 trianing.</p>
-<h3>What will success look like?</h3>
+"<h2>Wellbeing hub staff level 2 training</h2>"
+"<p>Wellbeing hub staff to complete National Centre for Smoking Cessation and Training Very Brief Advice level 2 trianing.</p>"
+"<h3>What will success look like?</h3>"
 "<p>1. All wellbeing staff will be VBA trained,            2. Wellbeing staff will be confident to discuss smoking cessation and record conversation outcome</p>"
-<h3>Who are key the parters for this action?</h3>
-<p>All hubs</p>
-</div>
-</div>
+"<h3>Who are key the parters for this action?</h3>"
+"<p>All hubs</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity shortterm    individual   maternity wsht "">"
 "<p class = ""ap_number"">51</p>"
 "<p class = ""ap_title"">Midwives level 1 training</p>"
@@ -1062,14 +1062,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Midwives level 1 training</h2>
-<p>Midwives to complete National Centre for Smoking Cessation and Training Very Brief Advice on smoking for pregnant women level 1 to talk about smoking cessation with pregnant women and their partners</p>
-<h3>What will success look like?</h3>
+"<h2>Midwives level 1 training</h2>"
+"<p>Midwives to complete National Centre for Smoking Cessation and Training Very Brief Advice on smoking for pregnant women level 1 to talk about smoking cessation with pregnant women and their partners</p>"
+"<h3>What will success look like?</h3>"
 "<p>1. All midwives will be VBA trained,            2. Midwives will be confident to discuss smoking cessation and record conversation outcome</p>"
-<h3>Who are key the parters for this action?</h3>
-<p>Maternity at Western Hospitals</p>
-</div>
-</div>
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Maternity at Western Hospitals</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item build_sustain_capacity longterm  individual   fire_service "">"
 "<p class = ""ap_number"">52</p>"
 "<p class = ""ap_title"">Safe and Well visits to test individual levels of carbon monoxide</p>"
@@ -1083,14 +1083,14 @@ value
 "<p class = ""timeframe_label"">Long term </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_build_sustain_capacity"">"
-<h2>Safe and Well visits to test individual levels of carbon monoxide</h2>
-<p>Use carbon monoxide (CO) Monitors during Safe and Well Visits to test individual levels of CO</p>
-<h3>What will success look like?</h3>
-<p>Identify people who have high levels of CO in their breath and to raise awareness of the impact from smoking</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Fire Service</p>
-</div>
-</div>
+"<h2>Safe and Well visits to test individual levels of carbon monoxide</h2>"
+"<p>Use carbon monoxide (CO) Monitors during Safe and Well Visits to test individual levels of CO</p>"
+"<h3>What will success look like?</h3>"
+"<p>Identify people who have high levels of CO in their breath and to raise awareness of the impact from smoking</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Fire Service</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item tackle_cheap_illicit_tob shortterm mediumterm longterm ongoing community environment trading_standards "">"
 "<p class = ""ap_number"">53</p>"
 "<p class = ""ap_title"">Disrupt the supply of illicit tobacco</p>"
@@ -1104,14 +1104,14 @@ value
 "<p class = ""timeframe_label"">Ongoing</p>"
 "<p class = ""levels_label"">Community and Environment</p>"
 "<div class=""tooltip_tackle_cheap_illicit_tob"">"
-<h2>Disrupt the supply of illicit tobacco</h2>
-<p>Continue to disrupt the supply of illicit tobacco in West Sussex</p>
-<h3>What will success look like?</h3>
+"<h2>Disrupt the supply of illicit tobacco</h2>"
+"<p>Continue to disrupt the supply of illicit tobacco in West Sussex</p>"
+"<h3>What will success look like?</h3>"
 "<p>More traders brought into  compliance, increase in numbes of seizures and quantities seized</p>"
-<h3>Who are key the parters for this action?</h3>
-<p>Trading Standards</p>
-</div>
-</div>
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Trading Standards</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item tackle_cheap_illicit_tob shortterm mediumterm longterm ongoing community environment trading_standards "">"
 "<p class = ""ap_number"">54</p>"
 "<p class = ""ap_title"">Educate consumers of illicit tobacco</p>"
@@ -1125,14 +1125,14 @@ value
 "<p class = ""timeframe_label"">Ongoing</p>"
 "<p class = ""levels_label"">Community and Environment</p>"
 "<div class=""tooltip_tackle_cheap_illicit_tob"">"
-<h2>Educate consumers of illicit tobacco</h2>
-<p>Educate consumers of issues with illicit tobacco and how to report it</p>
-<h3>What will success look like?</h3>
-<p>Increase in intelligence and intel reported</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Trading Standards</p>
-</div>
-</div>
+"<h2>Educate consumers of illicit tobacco</h2>"
+"<p>Educate consumers of issues with illicit tobacco and how to report it</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase in intelligence and intel reported</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Trading Standards</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item tackle_cheap_illicit_tob shortterm    community  maternity wsht arun_wellbeing h4f worthing_wellbeing all_hubs "">"
 "<p class = ""ap_number"">55</p>"
 "<p class = ""ap_title"">Clear reporting mechanisms for illicit tobacco among midwives</p>"
@@ -1146,14 +1146,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_tackle_cheap_illicit_tob"">"
-<h2>Clear reporting mechanisms for illicit tobacco among midwives</h2>
-<p>If staff are aware that illicit tobacco is being used they know how to report</p>
-<h3>What will success look like?</h3>
-<p>Increase in the number of IT reports to Trading Standards</p>
-<h3>Who are key the parters for this action?</h3>
+"<h2>Clear reporting mechanisms for illicit tobacco among midwives</h2>"
+"<p>If staff are aware that illicit tobacco is being used they know how to report</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase in the number of IT reports to Trading Standards</p>"
+"<h3>Who are key the parters for this action?</h3>"
 "<p>Maternity at Western Hospitals, Arun Wellbeing, Health4Families, Worthing Wellbeing</p>"
-</div>
-</div>
+"</div>"
+"</div>"
 "<div class = ""grid-item advocacy shortterm    environment public_health "">"
 "<p class = ""ap_number"">56</p>"
 "<p class = ""ap_title"">Review Smoke Free West Sussex Partnership membership</p>"
@@ -1167,14 +1167,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Environment</p>"
 "<div class=""tooltip_advocacy"">"
-<h2>Review Smoke Free West Sussex Partnership membership</h2>
-<p>Review Smoke Free West Sussex Partnership membership</p>
-<h3>What will success look like?</h3>
-<p>A partnership that actively discusses and addresses through working together the tobacco issues in West Sussex</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Review Smoke Free West Sussex Partnership membership</h2>"
+"<p>Review Smoke Free West Sussex Partnership membership</p>"
+"<h3>What will success look like?</h3>"
+"<p>A partnership that actively discusses and addresses through working together the tobacco issues in West Sussex</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item advocacy mediumterm   environment public_health "">"
 "<p class = ""ap_number"">57</p>"
 "<p class = ""ap_title"">CLeaR deep dive</p>"
@@ -1188,14 +1188,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Environment</p>"
 "<div class=""tooltip_advocacy"">"
-<h2>CLeaR deep dive</h2>
+"<h2>CLeaR deep dive</h2>"
 "<p>Complete a CLeaR model (Challenge, Leadership and Results) deep dive for Smokefree West Sussex</p>"
-<h3>What will success look like?</h3>
-<p>Recommendations to develop SFWSP</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h3>What will success look like?</h3>"
+"<p>Recommendations to develop SFWSP</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item advocacy shortterm    community  communities "">"
 "<p class = ""ap_number"">58</p>"
 "<p class = ""ap_title"">Link messages into community and voluntary sector organsiations</p>"
@@ -1209,14 +1209,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_advocacy"">"
-<h2>Link messages into community and voluntary sector organsiations</h2>
-<p>Link messages regarding tobacco control into community and voluntary sector organsiations</p>
-<h3>What will success look like?</h3>
-<p>Communities team raise tobacco control at a minimum of two events per year</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Communities</p>
-</div>
-</div>
+"<h2>Link messages into community and voluntary sector organsiations</h2>"
+"<p>Link messages regarding tobacco control into community and voluntary sector organsiations</p>"
+"<h3>What will success look like?</h3>"
+"<p>Communities team raise tobacco control at a minimum of two events per year</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Communities</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item advocacy shortterm    community  communities "">"
 "<p class = ""ap_number"">59</p>"
 "<p class = ""ap_title"">Link tobacco control messages into directorate team meetings</p>"
@@ -1230,14 +1230,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_advocacy"">"
-<h2>Link tobacco control messages into directorate team meetings</h2>
-<p>Link messages regarding tobacco control into directorate team meetings</p>
-<h3>What will success look like?</h3>
-<p>Tobacco control raised at a mnimum of two  C&PP directorate management team meetings a year</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Communities</p>
-</div>
-</div>
+"<h2>Link tobacco control messages into directorate team meetings</h2>"
+"<p>Link messages regarding tobacco control into directorate team meetings</p>"
+"<h3>What will success look like?</h3>"
+"<p>Tobacco control raised at a mnimum of two  C&PP directorate management team meetings a year</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Communities</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item advocacy longterm  environment public_health "">"
 "<p class = ""ap_number"">60</p>"
 "<p class = ""ap_title"">Raise the issue of tobacco control in West Sussex</p>"
@@ -1251,14 +1251,14 @@ value
 "<p class = ""timeframe_label"">Long term </p>"
 "<p class = ""levels_label"">Environment</p>"
 "<div class=""tooltip_advocacy"">"
-<h2>Raise the issue of tobacco control in West Sussex</h2>
-<p>Support members and the Director of Public Health in West Sussex to raise the issue of tobacco control</p>
-<h3>What will success look like?</h3>
-<p>Whole system approaches to tobacco control embedded  and health in all policies include tobacco control</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Raise the issue of tobacco control in West Sussex</h2>"
+"<p>Support members and the Director of Public Health in West Sussex to raise the issue of tobacco control</p>"
+"<h3>What will success look like?</h3>"
+"<p>Whole system approaches to tobacco control embedded  and health in all policies include tobacco control</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item yp_smokefree shortterm mediumterm longterm ongoing individual community environment trading_standards "">"
 "<p class = ""ap_number"">61</p>"
 "<p class = ""ap_title"">Under age sales operations on intel led targets</p>"
@@ -1272,14 +1272,14 @@ value
 "<p class = ""timeframe_label"">Ongoing</p>"
 "<p class = ""levels_label"">All levels</p>"
 "<div class=""tooltip_yp_smokefree"">"
-<h2>Under age sales operations on intel led targets</h2>
-<p>Continue to undertake under age sales operations on intel led targets</p>
-<h3>What will success look like?</h3>
-<p>Reduction in 'hit rates' of sales in UAS operations</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Trading Standards</p>
-</div>
-</div>
+"<h2>Under age sales operations on intel led targets</h2>"
+"<p>Continue to undertake under age sales operations on intel led targets</p>"
+"<h3>What will success look like?</h3>"
+"<p>Reduction in 'hit rates' of sales in UAS operations</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Trading Standards</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item yp_smokefree shortterm mediumterm longterm ongoing individual community environment trading_standards "">"
 "<p class = ""ap_number"">62</p>"
 "<p class = ""ap_title"">Educating businesses in under age sales legislation</p>"
@@ -1293,14 +1293,14 @@ value
 "<p class = ""timeframe_label"">Ongoing</p>"
 "<p class = ""levels_label"">All levels</p>"
 "<div class=""tooltip_yp_smokefree"">"
-<h2>Educating businesses in under age sales legislation</h2>
-<p>Educate businesses in West Sussex in under age sales legislation</p>
-<h3>What will success look like?</h3>
-<p>Increased number of businesses with knowledge of UAS legislation and engagment with TS</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Trading Standards</p>
-</div>
-</div>
+"<h2>Educating businesses in under age sales legislation</h2>"
+"<p>Educate businesses in West Sussex in under age sales legislation</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increased number of businesses with knowledge of UAS legislation and engagment with TS</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Trading Standards</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item yp_smokefree mediumterm   community  public_health "">"
 "<p class = ""ap_number"">63</p>"
 "<p class = ""ap_title"">Understanding attitudes to smoking among young people in West Sussex</p>"
@@ -1314,14 +1314,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_yp_smokefree"">"
-<h2>Understanding attitudes to smoking among young people in West Sussex</h2>
-<p>Increase local understanding of attitudes to smoking of young people in West Sussex</p>
-<h3>What will success look like?</h3>
-<p>Approriate interventions developed based on insight</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Understanding attitudes to smoking among young people in West Sussex</h2>"
+"<p>Increase local understanding of attitudes to smoking of young people in West Sussex</p>"
+"<h3>What will success look like?</h3>"
+"<p>Approriate interventions developed based on insight</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item yp_smokefree shortterm    individual   h4f "">"
 "<p class = ""ap_number"">64</p>"
 "<p class = ""ap_title"">Signpost Health4Families service users to stop smoking services</p>"
@@ -1335,14 +1335,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_yp_smokefree"">"
-<h2>Signpost Health4Families service users to stop smoking services</h2>
-<p>Referring young people who use Health4Families who are smokers to stop smoking services</p>
-<h3>What will success look like?</h3>
-<p>Increase number of young people engaging with stop smoking services</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Health4Families</p>
-</div>
-</div>
+"<h2>Signpost Health4Families service users to stop smoking services</h2>"
+"<p>Referring young people who use Health4Families who are smokers to stop smoking services</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase number of young people engaging with stop smoking services</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Health4Families</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item yp_smokefree mediumterm   individual   public_health "">"
 "<p class = ""ap_number"">65</p>"
 "<p class = ""ap_title"">Support the Local Maternity System</p>"
@@ -1356,14 +1356,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_yp_smokefree"">"
-<h2>Support the Local Maternity System</h2>
-<p>Support the Local Maternity System to achieve its aspirations related to tobacco control</p>
-<h3>What will success look like?</h3>
-<p>LMS has achieved its aspirations</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Support the Local Maternity System</h2>"
+"<p>Support the Local Maternity System to achieve its aspirations related to tobacco control</p>"
+"<h3>What will success look like?</h3>"
+"<p>LMS has achieved its aspirations</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item yp_smokefree shortterm    individual   maternity wsht "">"
 "<p class = ""ap_number"">66</p>"
 "<p class = ""ap_title"">Young parents care pathway</p>"
@@ -1377,14 +1377,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_yp_smokefree"">"
-<h2>Young parents care pathway</h2>
-<p>Use young parents care pathway as an opportunity to advise on health messages</p>
-<h3>What will success look like?</h3>
-<p>Fewer young parents smoking at time of delivery</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Maternity at Western Hospitals</p>
-</div>
-</div>
+"<h2>Young parents care pathway</h2>"
+"<p>Use young parents care pathway as an opportunity to advise on health messages</p>"
+"<h3>What will success look like?</h3>"
+"<p>Fewer young parents smoking at time of delivery</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Maternity at Western Hospitals</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item yp_smokefree mediumterm   individual   public_health "">"
 "<p class = ""ap_number"">67</p>"
 "<p class = ""ap_title"">Investigate efficacy of interventions for young people</p>"
@@ -1398,14 +1398,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_yp_smokefree"">"
-<h2>Investigate efficacy of interventions for young people</h2>
-<p>Investigate efficacy of prevention and smoking cessation interventions for young people</p>
-<h3>What will success look like?</h3>
-<p>Awareness of appropriate interventions for preventing the uptake of smoking among young people as well as helping them stop. This will be through a review of published and grey literature and other social research methods.</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Investigate efficacy of interventions for young people</h2>"
+"<p>Investigate efficacy of prevention and smoking cessation interventions for young people</p>"
+"<h3>What will success look like?</h3>"
+"<p>Awareness of appropriate interventions for preventing the uptake of smoking among young people as well as helping them stop. This will be through a review of published and grey literature and other social research methods.</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item smokefree_environments  individual   lms "">"
 "<p class = ""ap_number"">68</p>"
 "<p class = ""ap_title"">Local Maternity System knowledgebase</p>"
@@ -1419,14 +1419,14 @@ value
 "<p class = ""timeframe_label""></p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_smokefree_environments"">"
-<h2>Local Maternity System knowledgebase</h2>
-<p>Information on effects of smoking/smoking cessation services/smoke free homes included on LMS knowledgebase.</p>
-<h3>What will success look like?</h3>
-<p>Increase in visits/hits to knowledgebase per year.</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Local Maternity System</p>
-</div>
-</div>
+"<h2>Local Maternity System knowledgebase</h2>"
+"<p>Information on effects of smoking/smoking cessation services/smoke free homes included on LMS knowledgebase.</p>"
+"<h3>What will success look like?</h3>"
+"<p>Increase in visits/hits to knowledgebase per year.</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Local Maternity System</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item smokefree_environments shortterm    individual   maternity wsht "">"
 "<p class = ""ap_number"">69</p>"
 "<p class = ""ap_title"">Nicotine Replacement Therapy available during hospital stay</p>"
@@ -1440,14 +1440,14 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Individual </p>"
 "<div class=""tooltip_smokefree_environments"">"
-<h2>Nicotine Replacement Therapy available during hospital stay</h2>
-<p>Nicotine Replacement Therapy (NRT) to be available to all pregnant women during hospital stay</p>
-<h3>What will success look like?</h3>
-<p>An increase in the number of pregnant women on NRT during their hospital stay</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Maternity at Western Hospitals</p>
-</div>
-</div>
+"<h2>Nicotine Replacement Therapy available during hospital stay</h2>"
+"<p>Nicotine Replacement Therapy (NRT) to be available to all pregnant women during hospital stay</p>"
+"<h3>What will success look like?</h3>"
+"<p>An increase in the number of pregnant women on NRT during their hospital stay</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Maternity at Western Hospitals</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item smokefree_environments mediumterm   community  public_health "">"
 "<p class = ""ap_number"">70</p>"
 "<p class = ""ap_title"">Review workplace smokefree policies for local authorities</p>"
@@ -1461,14 +1461,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Community</p>"
 "<div class=""tooltip_smokefree_environments"">"
-<h2>Review workplace smokefree policies for local authorities</h2>
-<p>Review the smokefree policy for local authorities</p>
-<h3>What will success look like?</h3>
-<p>Evidence based workplace policy in WSCC</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Review workplace smokefree policies for local authorities</h2>"
+"<p>Review the smokefree policy for local authorities</p>"
+"<h3>What will success look like?</h3>"
+"<p>Evidence based workplace policy in WSCC</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item smokefree_environments shortterm    environment h4f "">"
 "<p class = ""ap_number"">71</p>"
 "<p class = ""ap_title"">Health4Families Smokfree policy</p>"
@@ -1482,18 +1482,18 @@ value
 "<p class = ""timeframe_label"">Short term   </p>"
 "<p class = ""levels_label"">Environment</p>"
 "<div class=""tooltip_smokefree_environments"">"
-<h2>Health4Families Smokfree policy</h2>
-<p>Develop a Smokfree policy for all service buildings and areas staff can use whilst at work</p>
-<h3>What will success look like?</h3>
-<p>All Children and family centres adhere to smokefree policy</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Health4Families</p>
-</div>
-</div>
+"<h2>Health4Families Smokfree policy</h2>"
+"<p>Develop a Smokfree policy for all service buildings and areas staff can use whilst at work</p>"
+"<h3>What will success look like?</h3>"
+"<p>All Children and family centres adhere to smokefree policy</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Health4Families</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item smokefree_environments mediumterm   environment maternity wsht "">"
 "<p class = ""ap_number"">72</p>"
 "<p class = ""ap_title"">Promoting smokefree environments outside maternity units</p>"
-"<p class = ""ap_text"">Training staff to maintain and promote smoke free environment outside maternity unit</p>"
+"<p class = ""ap_text"">Training staff to maintain and promote smokefree environments outside maternity unit</p>"
 "<p class = ""success"">Smoke Free maternity grounds</p>"
 "<p class = ""partner_label"">Maternity at Western Hospitals</p>"
 "<p class = ""hic_number"">10</p>"
@@ -1503,14 +1503,14 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Environment</p>"
 "<div class=""tooltip_smokefree_environments"">"
-<h2>Promoting smokefree environments outside maternity units</h2>
-<p>Training staff to maintain and promote smoke free environment outside maternity unit</p>
-<h3>What will success look like?</h3>
-<p>Smoke Free maternity grounds</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Maternity at Western Hospitals</p>
-</div>
-</div>
+"<h2>Promoting smokefree environments outside maternity units</h2>"
+"<p>Training staff to maintain and promote smokefree environments outside maternity unit</p>"
+"<h3>What will success look like?</h3>"
+"<p>Smoke Free maternity grounds</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Maternity at Western Hospitals</p>"
+"</div>"
+"</div>"
 "<div class = ""grid-item smokefree_environments mediumterm   environment public_health "">"
 "<p class = ""ap_number"">73</p>"
 "<p class = ""ap_title"">Planning and licensing processes promoting smokefree environments</p>"
@@ -1524,11 +1524,11 @@ value
 "<p class = ""timeframe_label"">Medium term  </p>"
 "<p class = ""levels_label"">Environment</p>"
 "<div class=""tooltip_smokefree_environments"">"
-<h2>Planning and licensing processes promoting smokefree environments</h2>
-<p>Explore how planning and licensing processes in District and Boroughs can be utilised to promote  smokefree environments</p>
-<h3>What will success look like?</h3>
-<p>Smoke Free environments promoted</p>
-<h3>Who are key the parters for this action?</h3>
-<p>Public Health</p>
-</div>
-</div>
+"<h2>Planning and licensing processes promoting smokefree environments</h2>"
+"<p>Explore how planning and licensing processes in District and Boroughs can be utilised to promote  smokefree environments</p>"
+"<h3>What will success look like?</h3>"
+"<p>Smoke Free environments promoted</p>"
+"<h3>Who are key the parters for this action?</h3>"
+"<p>Public Health</p>"
+"</div>"
+"</div>"
