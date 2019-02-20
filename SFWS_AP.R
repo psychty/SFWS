@@ -18,8 +18,8 @@ AP_raw <- read_excel("./SFWS Action Plan.xlsx") %>%
   mutate(timeframe_js = trimws(gsub("NA", "", paste(timeframe_short, timeframe_medium, timeframe_long, ongoing, sep = " ")), which = "left")) %>% 
   mutate(level_individual = ifelse(grepl("I", level, ignore.case = TRUE) == TRUE, "individual", NA),
          level_community = ifelse(grepl("C", level, ignore.case = TRUE) == TRUE, "community", NA),
-         level_environment = ifelse(grepl("E", level, ignore.case = TRUE) == TRUE, "environment", NA)) %>% 
-  mutate(level_js = trimws(gsub("NA", "", paste(level_individual, level_community, level_environment, sep = " ")), which = "left"))
+         level_place = ifelse(grepl("P", level, ignore.case = TRUE) == TRUE, "place", NA)) %>% 
+  mutate(level_js = trimws(gsub("NA", "", paste(level_individual, level_community, level_place, sep = " ")), which = "left"))
 
 # We have to split the code here because the next part calls AP_raw which is not created until the end of the command
 
@@ -33,9 +33,9 @@ AP_raw <- AP_raw %>%
   mutate(timeframe_label = gsub("shortterm", "Short term", timeframe_label)) %>% 
   mutate(timeframe_label = gsub("mediumterm", "Medium term", timeframe_label)) %>% 
   mutate(timeframe_label = gsub("longterm", "Long term", timeframe_label)) %>% 
-  mutate(how_many_levels = rowSums(!is.na(AP_raw[c("level_individual", "level_community", "level_environment")]))) %>% 
+  mutate(how_many_levels = rowSums(!is.na(AP_raw[c("level_individual", "level_community", "level_place")]))) %>% 
   mutate(levels_label = ifelse(how_many_levels == 3, "All levels", 
-                        ifelse(how_many_levels == 2, trimws(gsub("NA and", "", paste(capwords(level_individual, strict = TRUE), capwords(level_community, strict = TRUE), capwords(level_environment, strict = TRUE), sep = " and ")), which = "left"), 
+                        ifelse(how_many_levels == 2, trimws(gsub("NA and", "", paste(capwords(level_individual, strict = TRUE), capwords(level_community, strict = TRUE), capwords(level_place, strict = TRUE), sep = " and ")), which = "left"), 
                         ifelse(how_many_levels == 1, capwords(level_js, strict = TRUE), NA)))) %>% 
   mutate(levels_label = gsub("NA ", "", levels_label)) %>% 
   mutate(partner_label = ifelse(grepl(",", partners, ignore.case = TRUE) == TRUE, "Multiple partners", partners)) %>% 
@@ -43,19 +43,18 @@ AP_raw <- AP_raw %>%
   mutate(partner_js = partners) %>% 
   mutate(partner_js = gsub("Trading Standards", "trading_standards", partner_js)) %>% 
   mutate(partner_js = gsub("Local Maternity System", "lms", partner_js)) %>% 
-  mutate(partner_js = gsub("Arun Wellbeing", "arun_wellbeing", partner_js)) %>% 
+  mutate(partner_js = gsub("Wellbeing programme", "wellbeing_programme", partner_js, ignore.case = TRUE)) %>% 
   mutate(partner_js = gsub("Fire Service", "fire_service", partner_js)) %>% 
   mutate(partner_js = gsub("Public Health", "public_health", partner_js)) %>% 
-  mutate(partner_js = gsub("Worthing Wellbeing", "worthing_wellbeing", partner_js)) %>% 
-  mutate(partner_js = gsub("all hubs", "all_hubs", partner_js, ignore.case = TRUE)) %>% 
   mutate(partner_js = gsub("Maternity at Western Hospitals", "maternity wsht", partner_js)) %>% 
   mutate(partner_js = gsub("Health4Families", "h4f", partner_js)) %>% 
   mutate(partner_js = gsub("Prisons", "prisons", partner_js)) %>% 
   mutate(partner_js = gsub("Communities", "communities", partner_js)) %>% 
   mutate(partner_js = gsub("Western Sussex Hospitals NHS Foundation Trust", "wsht", partner_js)) %>% 
   mutate(partner_js = gsub("Sussex Community NHS Foundation Trust", "scft", partner_js)) %>% 
-  mutate(partner_js = gsub(",", "", partner_js)) %>% 
-  mutate(partner_js = ifelse(grepl("arun_wellbeing", partner_js, ignore.case = TRUE) == TRUE & grepl("worthing_wellbeing", partner_js, ignore.case = TRUE) == TRUE, paste0(partner_js, " all_hubs"), partner_js))
+  mutate(partner_js = gsub("Primary Care", "primary_care", partner_js)) %>% 
+  mutate(partner_js = gsub("District & Boroughs", "dandb", partner_js)) %>% 
+  mutate(partner_js = gsub(",", "", partner_js)) 
 
 AP_ready <- AP_raw %>% 
   select(ap_number, ap_title, ap_text, success, progress, achieved, partners,partner_label, partner_js, hic_number, hic_label, hic_class, timeframe_js, timeframe_label, level_js, levels_label) %>% 
