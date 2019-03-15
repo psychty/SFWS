@@ -75,7 +75,7 @@ AP_ready <- AP_raw %>%
          div_15 = paste0("<p>", ap_text, "</p>"),
          div_16 = paste0("<h3>What will success look like?</h3>"),
          div_17 = paste0("<p>", success, "</p>"),
-         div_18 = paste0("<h3>Who are key the parters for this action?</h3>"),
+         div_18 = paste0("<h3>Who are key partners for this action?</h3>"),
          div_19 = paste0("<p>",partners,"</p>"),
          div_20 = "</div>")
 
