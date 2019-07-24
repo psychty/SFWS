@@ -2,7 +2,7 @@
 library(tidyverse)
 library(readxl)
 
-setwd("C:/Users/Rich/Documents/sfws-project-folder")
+setwd("/Users/richtyler/Documents/Repositories/SFWS")
 
 capwords = function(s, strict = FALSE) {
   cap = function(s) paste(toupper(substring(s, 1, 1)),
@@ -68,8 +68,8 @@ AP_ready <- AP_raw %>%
   mutate(div_6 = gsub("NA", "", paste0('<p class = "partner_label">', partner_label,'</p>'))) %>% 
   mutate(div_7 = gsub("NA", "", paste0('<p class = "hic_number">', hic_number,'</p>'))) %>% 
   mutate(div_8 = gsub("NA", "", paste0('<p class = "hic_label">', hic_label,'</p>'))) %>% 
-  mutate(div_9 = gsub("NA", "", paste0('<p class = "progress">', progress,'</p>'))) %>% 
-  mutate(div_10 = gsub("NA", "", paste0('<p class = "achieved">', achieved,'</p>'))) %>% 
+  mutate(div_9 = gsub("NA", "", paste0('<p class = "progress">', progress,'</p>'))) %>%
+  mutate(div_10 = gsub("NA", "", paste0('<p class = "achieved">', achieved,'</p>'))) %>%
   mutate(div_11 = gsub("NA", "", paste0('<p class = "timeframe_label">', timeframe_label,'</p>'))) %>% 
   mutate(div_12 = gsub("NA", "", paste0('<p class = "levels_label">', levels_label,'</p>'))) %>% 
   mutate(div_13 = paste0('<div class="tooltip_',hic_class,'">'),
@@ -82,7 +82,13 @@ AP_ready <- AP_raw %>%
          div_20 = "</div>")
 
 # We could include links or an update of progress etc.
-AP_t <- gather(as.data.frame(t(AP_ready[c("div_1","div_2","div_3","div_4","div_5","div_6","div_7","div_8","div_9","div_10","div_11","div_12","div_13","div_14","div_15","div_16","div_17","div_18","div_19","div_20","div_20")])))
+
+# Note we have removed the progress and achieved divs for the time being!! (div_9 and div_10)
+AP_t <- gather(as.data.frame(t(AP_ready[c("div_1","div_2","div_3","div_4","div_5","div_6","div_7","div_8","div_11","div_12","div_13","div_14","div_15","div_16","div_17","div_18","div_19","div_20","div_20")])))
+
+
+
+
 
 write.csv(AP_t[c("value")], "./actionplan_html.csv", row.names = FALSE)
 
