@@ -1,0 +1,668 @@
+/* Style the header */
+.header {
+        text-align: center;
+    }
+
+.footer {
+      text-align: left;
+    }
+
+/* Create two unequal columns that floats next to each other */
+.column {
+        float: left;
+    }
+
+.column.side.left {
+    width: 15%;
+    padding-right: 5px;
+    }
+
+.column.main {
+    width: 76%;
+    }
+
+.column.side.right{
+    width: 9%;
+    color: #e7e7e7;
+    }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side.left,
+    .column.main,
+    .column.side.right {
+            width: 100%;
+        }
+    }
+
+/* To do -
+/* Import data for the divs from a csv/json file rather than manually type it. there are 70 boxes! */
+    /* How to export it for others to use. Embed as html works fine whilst the data is compiled using R but if we get data imported from json file, I'd need to store that too.*/
+    /* Could we make the grid div smaller (because once a user has chosen a specific partner/timeframe/level, the number will likely drop from 69 to five or six) and then have another div container showing more information about that action (see mock up).*/
+
+* {
+    box-sizing: border-box;
+  }
+
+/* default size font for browsers is 16px. you can set relative size by using em units. 1em = 16px. Therefore, 14px = 14/16 =0.875 */
+
+body {
+    font-family: verdana;
+    }
+
+h1 {
+    font-size: 1.5em;
+    color: #151f6d;
+    }
+
+h2 {
+    font-size: 0.9em;
+    font-family: verdana;
+    color: #151f6d;
+    }
+
+h3 {
+    font-size: 0.85em;
+    font-style: italic;
+    color: #151f6d;
+    }
+
+p   {
+    font-size: 0.85em;
+    }
+
+p.progress {
+    visibility: hidden;
+    }
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+    }
+
+.grid-item > * {
+    margin: 0;
+    padding: 0;
+    }
+
+.grid-item {
+    position: relative;
+    float: left;
+    width: 194px;
+    height: 100px;
+    margin: 3px;
+    padding: 10px;
+    background: #888;
+    color: #262524;
+    }
+
+.grid-item .ap_title {
+    position: absolute;
+    left: 5px;
+    padding-right: 5px;
+    top: 5px;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: white;
+    }
+
+.grid-item .ap_number {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: rgba(255,255,255, 1);
+    }
+
+.grid-item .timeframe_label {
+    position: absolute;
+    left: 8px;
+    bottom: 35px;
+    font-size: 0.625em;
+    color: rgba(255,255,255, 0.85);
+    }
+
+.grid-item .partner_label {
+    position: absolute;
+    left: 8px;
+    bottom: 22.5px;
+    font-size: 0.625em;
+    color: rgba(255,255,255, 0.85);
+    }
+
+.grid-item .levels_label {
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+    font-size: 0.625em;
+    color: rgba(255,255,255, 0.85);
+    }
+
+/*  Colour boxes by hic_number */
+.working_partnership {
+    background: #9B2948;
+    }
+
+.gather_data {
+    background: #CA7F88;
+    }
+
+.gather_data .timeframe_label,
+.gather_data .levels_label,
+.gather_data .partner_label{
+    color: rgba(0,0,0, .75);
+    }
+
+.health_inequalities {
+    background: #C1852A;
+    }
+
+.deliver_cccc {
+    background: #4E235A;
+    }
+
+.integrated_approach {
+    background: #546F2A;
+    }
+
+.build_sustain_capacity {
+    background: #8DAFC4;
+    }
+
+.build_sustain_capacity .timeframe_label,
+.build_sustain_capacity .levels_label,
+.build_sustain_capacity .partner_label{
+  color: rgba(0,0,0, .75);
+    }
+
+.tackle_cheap_illicit_tob {
+  background: #B5D384;
+    }
+.tackle_cheap_illicit_tob .timeframe_label,
+.tackle_cheap_illicit_tob .levels_label,
+.tackle_cheap_illicit_tob .partner_label{
+  color: rgba(0,0,0, .75);
+    }
+
+.advocacy {
+  background: #E53049;
+    }
+
+.yp_smokefree {
+  background: #00A18C;
+    }
+
+.smokefree_environments {
+  background: #006BA8;
+    }
+
+/*  Colour boxes by level */
+/* .individual 			{ background: #fa9a14; }
+.community  							{ background: #c10c79; }
+.environment      	{ background: #00ced1; } */
+
+.grid-item:hover {
+  background: #666666;
+  color: white;
+    }
+
+.grid-item:hover .timeframe_label,
+.grid-item:hover .levels_label,
+.grid-item:hover .partner_label{
+  color: rgba(255,255,255, 0.85);
+    }
+
+.button {
+  display: block;
+  padding: 0.5em 0.5em;
+  border: none;
+  color: #222;
+  font-family: sans-serif;
+  font-size: .75em;
+  cursor: pointer;
+  text-align: left;
+  margin: 0 0 3px;
+    }
+
+.button[data-filter=".working_partnership"]{
+  min-height: 40px;
+  border-left: 8px solid #9B2948;
+    }
+.button[data-filter=".gather_data"]{
+  min-height: 40px;
+  border-left: 8px solid #CA7F88;
+    }
+.button[data-filter= ".health_inequalities"]{
+  min-height: 40px;
+  border-left: 8px solid #C1852A;
+    }
+.button[data-filter=".deliver_cccc"]{
+  min-height: 40px;
+  border-left: 8px solid #4E235A;
+    }
+.button[data-filter=".integrated_approach"]{
+  min-height: 40px;
+  border-left: 8px solid #546F2A;
+    }
+.button[data-filter=".build_sustain_capacity"]{
+  min-height: 40px;
+  border-left: 8px solid #8DAFC4;
+    }
+.button[data-filter=".tackle_cheap_illicit_tob"]{
+  min-height: 40px;
+  vertical-align: text-top;
+  border-left: 8px solid #B5D384;
+    }
+.button[data-filter=".advocacy"]{
+  min-height: 40px;
+  border-left: 8px solid #E53049;
+    }
+.button[data-filter=".yp_smokefree"]{
+  min-height: 40px;
+  border-left: 8px solid #00A18C;
+    }
+.button[data-filter=".smokefree_environments"]{
+  min-height: 40px;
+  border-left: 8px solid #006BA8;
+    }
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+    }
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+    }
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+    }
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+    }
+
+.button-group {
+  margin-bottom: 20px;
+    }
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+    }
+
+.button-group .button {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+  width: 100%;
+  display:block;
+    }
+
+.ui-group {
+    }
+
+.ui-group h3 {
+  vertical-align: top;
+  line-height: 10px;
+  margin-right: 0.2em;
+  font-size: 0.75em;
+    }
+
+.ui-group .button-group {
+  margin-right: 0.2em;
+    }
+
+p.ap_text {
+  display: none;
+    }
+
+p.success {
+  display: none;
+    }
+
+p.progress {
+  display: none;
+    }
+
+p.achieved {
+  display: none;
+    }
+
+p.hic_label {
+  display: none;
+    }
+
+p.named_person {
+  display: none;
+    }
+
+p.hic_number {
+  display: none;
+    }
+
+.filter-count {
+  font-size: .75em;
+  font-family: verdana;
+  color: #151f6d;
+    }
+
+/* .grid-item .tooltip_working_partnership{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_working_partnership{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #9B2948;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_gather_data{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_gather_data{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #CA7F88;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_health_inequalities{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_health_inequalities{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #C1852A;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_deliver_cccc{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_deliver_cccc{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #4E235A;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_integrated_approach{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_integrated_approach{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #546F2A;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_build_sustain_capacity{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_build_sustain_capacity{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #8DAFC4;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_tackle_cheap_illicit_tob{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_tackle_cheap_illicit_tob{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #B5D384;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_advocacy{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_advocacy{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #E53049;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_yp_smokefree{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_yp_smokefree{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #00A18C;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item .tooltip_smokefree_environments{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_smokefree_environments{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 175px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 6px dotted;
+  border-color: #006BA8;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    } */
+
+.grid-item .tooltip_red{
+  display: none;
+  z-index:9999;
+    }
+.grid-item .tooltip_green{
+  display: none;
+  z-index:9999;
+    }
+.grid-item .tooltip_amber{
+  display: none;
+  z-index:9999;
+    }
+.grid-item .tooltip_unknown{
+  display: none;
+  z-index:9999;
+    }
+
+.grid-item:hover .tooltip_red{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 185px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 10px solid;
+  border-color: #CC2629;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item:hover .tooltip_green{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 185px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 10px solid;
+  border-color: #3ECC26;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item:hover .tooltip_amber{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 185px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 10px solid;
+  border-color: #E7AF27;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }
+
+.grid-item:hover .tooltip_unknown{
+  display: block;
+  position: relative;
+  top: -40px;
+  min-width: 185px;
+  min-height: 100px;
+  left: 95%;
+  background: #fff;
+  color: #111;
+  font-size: .75em;
+  padding: 5px;
+  border-radius: 18px;
+  border: 10px solid;
+  border-color: #8E8E8E;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    }

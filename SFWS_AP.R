@@ -9,8 +9,7 @@ capwords = function(s, strict = FALSE) {
                           {s = substring(s, 2); if(strict) tolower(s) else s},sep = "", collapse = " " )
   sapply(strsplit(s, split = " "), cap, USE.NAMES = !is.null(names(s)))}
 
-
-AP_raw <- read_excel("./SFWS Action Plan.xlsx") %>% 
+AP_raw <- read_excel("./SFWS Action Plan.xlsx")  %>% 
   mutate(timeframe_short = ifelse(grepl("S", timeframe, ignore.case = TRUE) == TRUE, "shortterm", NA),
          timeframe_medium = ifelse(grepl("M", timeframe, ignore.case = TRUE) == TRUE, "mediumterm", NA),
          timeframe_long = ifelse(grepl("L", timeframe, ignore.case = TRUE) == TRUE, "longterm", NA)) %>% 
@@ -19,8 +18,9 @@ AP_raw <- read_excel("./SFWS Action Plan.xlsx") %>%
   mutate(level_individual = ifelse(grepl("I", level, ignore.case = TRUE) == TRUE, "individual", NA),
          level_community = ifelse(grepl("C", level, ignore.case = TRUE) == TRUE, "community", NA),
          level_place = ifelse(grepl("P", level, ignore.case = TRUE) == TRUE, "place", NA)) %>% 
-  mutate(level_js = trimws(gsub("NA", "", paste(level_individual, level_community, level_place, sep = " ")), which = "left"))
-
+  mutate(level_js = trimws(gsub("NA", "", paste(level_individual, level_community, level_place, sep = " ")), which = "left")) %>% 
+  mutate(progress = ifelse(is.na(progress), 'Progress unknown', progress)) %>% 
+  mutate(achieved = ifelse(is.na(achieved), 'Progress unknown', achieved)) 
 write.csv(AP_raw, "./actionplan_raw.csv", row.names = FALSE, na = "")
 
 # We have to split the code here because the next part calls AP_raw which is not created until the end of the command
@@ -56,39 +56,60 @@ AP_raw <- AP_raw %>%
   mutate(partner_js = gsub("Sussex Community NHS Foundation Trust", "scft", partner_js)) %>% 
   mutate(partner_js = gsub("Primary Care", "primary_care", partner_js)) %>% 
   mutate(partner_js = gsub("District & Boroughs", "dandb", partner_js)) %>% 
-  mutate(partner_js = gsub(",", "", partner_js)) 
+  mutate(partner_js = gsub(",", "", partner_js)) %>% 
+  mutate(achieved_js = ifelse(achieved == 'Progress unknown', 'Unknown', achieved))
+
+# AP_ready <- AP_raw %>% 
+#   select(ap_number, ap_title, ap_text, success, progress, achieved, partners,partner_label, partner_js, hic_number, hic_label, hic_class, timeframe_js, timeframe_label, level_js, levels_label, achieved_js) %>% 
+#   mutate(div_1 = paste('<div class = "grid-item', hic_class, timeframe_js, level_js, partner_js,'">', sep = " ")) %>% 
+#   mutate(div_2 = paste0('<p class = "ap_number">',ap_number,'</p>')) %>% 
+#   mutate(div_3 = paste0('<p class = "ap_title">', ap_title,'</p>')) %>% 
+#   mutate(div_4 = paste0('<p class = "ap_text">', ap_text,'</p>')) %>% 
+#   mutate(div_5 = paste0('<p class = "sucess">', success,'</p>')) %>% 
+#   mutate(div_6 = paste0('<p class = "partner_label">', partner_label,'</p>')) %>% 
+#   mutate(div_7 = paste0('<p class = "hic_number">', hic_number,'</p>')) %>% 
+#   mutate(div_8 = paste0('<p class = "hic_label">', hic_label,'</p>')) %>% 
+#   mutate(div_9 = paste0('<p class = "timeframe_label">', timeframe_label,'</p>')) %>% 
+#   mutate(div_10 = paste0('<p class = "levels_label">', levels_label,'</p>')) %>% 
+#   mutate(div_11 = paste0('<div class="tooltip_',hic_class,'">'),
+#          div_12 = paste0("<h2>",ap_title, "</h2>"),
+#          div_13 = paste0("<p>", ap_text, "</p>"),
+#          div_14 = paste0("<h3>What will success look like?</h3>"),
+#          div_15 = paste0("<p>", success, "</p>"),
+#          div_16 = paste0("<h3>Who are key partners for this action?</h3>"),
+#          div_17 = paste0("<p>",partners,"</p>"),
+#          div_18 = paste0("<h3>How are we doing so far?</h3>"),
+#          div_19 = paste0('<p>', progress,'</p>'),
+#          div_20 = "</div>")
+
 
 AP_ready <- AP_raw %>% 
-  select(ap_number, ap_title, ap_text, success, progress, achieved, partners,partner_label, partner_js, hic_number, hic_label, hic_class, timeframe_js, timeframe_label, level_js, levels_label) %>% 
-  mutate(div_1 = gsub("NA", "", paste('<div class = "grid-item', hic_class, timeframe_js, level_js, partner_js,'">', sep = " "))) %>% 
-  mutate(div_2 = gsub("NA", "", paste0('<p class = "ap_number">',ap_number,'</p>'))) %>% 
-  mutate(div_3 = gsub("NA", "", paste0('<p class = "ap_title">', ap_title,'</p>'))) %>% 
-  mutate(div_4 = gsub("NA", "", paste0('<p class = "ap_text">', ap_text,'</p>'))) %>% 
-  mutate(div_5 = gsub("NA", "", paste0('<p class = "success">', success,'</p>'))) %>% 
-  mutate(div_6 = gsub("NA", "", paste0('<p class = "partner_label">', partner_label,'</p>'))) %>% 
-  mutate(div_7 = gsub("NA", "", paste0('<p class = "hic_number">', hic_number,'</p>'))) %>% 
-  mutate(div_8 = gsub("NA", "", paste0('<p class = "hic_label">', hic_label,'</p>'))) %>% 
-  mutate(div_9 = gsub("NA", "", paste0('<p class = "progress">', progress,'</p>'))) %>%
-  mutate(div_10 = gsub("NA", "", paste0('<p class = "achieved">', achieved,'</p>'))) %>%
-  mutate(div_11 = gsub("NA", "", paste0('<p class = "timeframe_label">', timeframe_label,'</p>'))) %>% 
-  mutate(div_12 = gsub("NA", "", paste0('<p class = "levels_label">', levels_label,'</p>'))) %>% 
-  mutate(div_13 = paste0('<div class="tooltip_',hic_class,'">'),
-         div_14 = paste0("<h2>",ap_title, "</h2>"),
-         div_15 = paste0("<p>", ap_text, "</p>"),
-         div_16 = paste0("<h3>What will success look like?</h3>"),
-         div_17 = paste0("<p>", success, "</p>"),
-         div_18 = paste0("<h3>Who are key partners for this action?</h3>"),
-         div_19 = paste0("<p>",partners,"</p>"),
+  select(ap_number, ap_title, ap_text, success, progress, achieved, partners,partner_label, partner_js, hic_number, hic_label, hic_class, timeframe_js, timeframe_label, level_js, levels_label, achieved_js) %>% 
+  mutate(div_1 = paste('<div class = "grid-item', hic_class, timeframe_js, level_js, partner_js,'">', sep = " ")) %>% 
+  mutate(div_2 = paste0('<p class = "ap_number">',ap_number,'</p>')) %>% 
+  mutate(div_3 = paste0('<p class = "ap_title">', ap_title,'</p>')) %>% 
+  mutate(div_4 = paste0('<p class = "ap_text">', ap_text,'</p>')) %>% 
+  mutate(div_5 = paste0('<p class = "sucess">', success,'</p>')) %>% 
+  mutate(div_6 = paste0('<p class = "partner_label">', partner_label,'</p>')) %>% 
+  mutate(div_7 = paste0('<p class = "hic_number">', hic_number,'</p>')) %>% 
+  mutate(div_8 = paste0('<p class = "hic_label">', hic_label,'</p>')) %>% 
+  mutate(div_9 = paste0('<p class = "timeframe_label">', timeframe_label,'</p>')) %>% 
+  mutate(div_10 = paste0('<p class = "levels_label">', levels_label,'</p>')) %>% 
+  mutate(div_11 = paste0('<div class="tooltip_',tolower(achieved_js),'">'),
+         div_12 = paste0("<h2>",ap_title, "</h2>"),
+         div_13 = paste0("<p>", ap_text, "</p>"),
+         div_14 = paste0("<h3>What will success look like?</h3>"),
+         div_15 = paste0("<p>", success, "</p>"),
+         div_16 = paste0("<h3>Who are key partners for this action?</h3>"),
+         div_17 = paste0("<p>",partners,"</p>"),
+         div_18 = paste0("<h3>How are we doing so far?</h3>"),
+         div_19 = paste0('<p>', progress,'</p>'),
          div_20 = "</div>")
 
 # We could include links or an update of progress etc.
 
 # Note we have removed the progress and achieved divs for the time being!! (div_9 and div_10)
-AP_t <- gather(as.data.frame(t(AP_ready[c("div_1","div_2","div_3","div_4","div_5","div_6","div_7","div_8","div_11","div_12","div_13","div_14","div_15","div_16","div_17","div_18","div_19","div_20","div_20")])))
-
-
-
-
+AP_t <- gather(as.data.frame(t(AP_ready[c("div_1","div_2","div_3","div_4","div_6","div_7","div_8","div_9","div_10","div_11","div_12","div_13","div_14","div_15","div_16","div_17","div_18","div_19","div_20","div_20")])))
 
 write.csv(AP_t[c("value")], "./actionplan_html.csv", row.names = FALSE)
 
