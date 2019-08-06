@@ -9,7 +9,7 @@
 
 /* Create two unequal columns that floats next to each other */
 .column {
-        float: left;
+    float: left;
     }
 
 .column.side.left {
@@ -18,11 +18,11 @@
     }
 
 .column.main {
-    width: 76%;
+    width: 70%;
     }
 
 .column.side.right{
-    width: 9%;
+    width: 15%;
     color: #e7e7e7;
     }
 
@@ -603,7 +603,7 @@ p.hic_number {
   display: block;
   position: relative;
   top: -40px;
-  min-width: 200px;
+  min-width: 250px;
   min-height: 100px;
   left: 95%;
   background: #fff;
@@ -620,7 +620,7 @@ p.hic_number {
   display: block;
   position: relative;
   top: -40px;
-  min-width: 200px;
+  min-width: 250px;
   min-height: 100px;
   left: 95%;
   background: #fff;
@@ -637,7 +637,7 @@ p.hic_number {
   display: block;
   position: relative;
   top: -40px;
-  min-width: 200px;
+  min-width: 250px;
   min-height: 100px;
   left: 95%;
   background: #fff;
@@ -654,7 +654,7 @@ p.hic_number {
   display: block;
   position: relative;
   top: -40px;
-  min-width: 200px;
+  min-width: 250px;
   min-height: 100px;
   left: 95%;
   background: #fff;
