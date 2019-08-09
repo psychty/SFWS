@@ -21,6 +21,7 @@ AP_raw <- read_excel("./SFWS Action Plan.xlsx")  %>%
   mutate(level_js = trimws(gsub("NA", "", paste(level_individual, level_community, level_place, sep = " ")), which = "left")) %>% 
   mutate(progress = ifelse(is.na(progress), 'Progress unknown', progress)) %>% 
   mutate(achieved = ifelse(is.na(achieved), 'Progress unknown', achieved)) 
+
 write.csv(AP_raw, "./actionplan_raw.csv", row.names = FALSE, na = "")
 
 # We have to split the code here because the next part calls AP_raw which is not created until the end of the command
