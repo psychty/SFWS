@@ -602,8 +602,8 @@ p.hic_number {
 .grid-item:hover .tooltip_red{
   display: block;
   position: relative;
-  top: -40px;
-  min-width: 250px;
+  top: 40px;
+  min-width: 260px;
   min-height: 100px;
   left: 95%;
   background: #fff;
@@ -611,7 +611,7 @@ p.hic_number {
   font-size: .85em;
   padding: 5px;
   border-radius: 18px;
-  border: 10px solid;
+  border: 6px solid;
   border-color: #CC2629;
   box-shadow: 0 3px 20px rgba(0,0,0,0.2);
     }
@@ -619,8 +619,8 @@ p.hic_number {
 .grid-item:hover .tooltip_green{
   display: block;
   position: relative;
-  top: -40px;
-  min-width: 250px;
+  top: 40px;
+  min-width: 260px;
   min-height: 100px;
   left: 95%;
   background: #fff;
@@ -628,7 +628,7 @@ p.hic_number {
   font-size: .85em;
   padding: 5px;
   border-radius: 18px;
-  border: 10px solid;
+  border: 6px solid;
   border-color: #3ECC26;
   box-shadow: 0 3px 20px rgba(0,0,0,0.2);
     }
@@ -636,8 +636,8 @@ p.hic_number {
 .grid-item:hover .tooltip_amber{
   display: block;
   position: relative;
-  top: -40px;
-  min-width: 250px;
+  top: 40px;
+  min-width: 260px;
   min-height: 100px;
   left: 95%;
   background: #fff;
@@ -645,7 +645,7 @@ p.hic_number {
   font-size: .85em;
   padding: 5px;
   border-radius: 18px;
-  border: 10px solid;
+  border: 6px solid;
   border-color: #E7AF27;
   box-shadow: 0 3px 20px rgba(0,0,0,0.2);
     }
@@ -653,8 +653,8 @@ p.hic_number {
 .grid-item:hover .tooltip_unknown{
   display: block;
   position: relative;
-  top: -40px;
-  min-width: 250px;
+  top: 40px;
+  min-width: 260px;
   min-height: 100px;
   left: 95%;
   background: #fff;
@@ -662,7 +662,7 @@ p.hic_number {
   font-size: .85em;
   padding: 5px;
   border-radius: 18px;
-  border: 10px solid;
+  border: 6px solid;
   border-color: #8E8E8E;
   box-shadow: 0 3px 20px rgba(0,0,0,0.2);
     }
