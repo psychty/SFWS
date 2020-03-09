@@ -1,4 +1,14 @@
-# Smokefree West Sussex Alliance Action plan
+## Update Jan 202019
+
+This action plan has been updated in January 2020, to include progress from various partners for the one year on celebration event on March 19th
+Two actions have removed
+
+* Use young parents care pathway as an opportunity to advise on health messages
+* Develop a Smokefree policy for all service buildings and areas staff can use whilst at work
+
+Two wellbeing hub actions (actions 8 and 9) have merged to become Report on the number of people signposted to stop smoking services from wellbeing hubs and share data gathered from health MOTs to show the number of people identified as smokers
+
+## Smokefree West Sussex Alliance Action Plan 2019-2022 SFWS TC Plan
 
 This project is to visualise the 2019-2022 Smoke Free West Sussex Tobacco Control Plan.
 

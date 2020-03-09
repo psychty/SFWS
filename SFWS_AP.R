@@ -9,7 +9,7 @@ capwords = function(s, strict = FALSE) {
                           {s = substring(s, 2); if(strict) tolower(s) else s},sep = "", collapse = " " )
   sapply(strsplit(s, split = " "), cap, USE.NAMES = !is.null(names(s)))}
 
-AP_raw <- read_excel("./SFWS Action Plan.xlsx")  %>% 
+AP_raw <- read_excel("./SFWS Action Plan partnership update Jan 2020.xlsx") %>% 
   mutate(timeframe_short = ifelse(grepl("S", timeframe, ignore.case = TRUE) == TRUE, "shortterm", NA),
          timeframe_medium = ifelse(grepl("M", timeframe, ignore.case = TRUE) == TRUE, "mediumterm", NA),
          timeframe_long = ifelse(grepl("L", timeframe, ignore.case = TRUE) == TRUE, "longterm", NA)) %>% 
@@ -20,7 +20,8 @@ AP_raw <- read_excel("./SFWS Action Plan.xlsx")  %>%
          level_place = ifelse(grepl("P", level, ignore.case = TRUE) == TRUE, "place", NA)) %>% 
   mutate(level_js = trimws(gsub("NA", "", paste(level_individual, level_community, level_place, sep = " ")), which = "left")) %>% 
   mutate(progress = ifelse(is.na(progress), 'Progress unknown', progress)) %>% 
-  mutate(achieved = ifelse(is.na(achieved), 'Progress unknown', achieved)) 
+  mutate(achieved = ifelse(is.na(achieved), 'Progress unknown', achieved)) %>% 
+  mutate(progress = ifelse(is.na(`January update`), paste0(progress, '</p><h3>No update in January 2020</h3><p>'), ifelse(progress == 'Progress unknown', paste0('</p><h3>January update: </h3><p>', `January update`),  paste0(progress, '</p><h3>Janurary update: </h3><p>', `January update`))))
 
 write.csv(AP_raw, "./actionplan_raw.csv", row.names = FALSE, na = "")
 
